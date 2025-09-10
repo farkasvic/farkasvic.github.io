@@ -12,7 +12,7 @@ website:
 
 format:
   html:
-    theme:
+    theme: morph
       - cosmo
       - brand
     css: styles.css

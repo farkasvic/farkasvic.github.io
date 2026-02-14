@@ -7,6 +7,41 @@
     "text": "LinkedIn: https://www.linkedin.com/in/victoriafarkas01/"
   },
   {
+    "objectID": "about.html#profile",
+    "href": "about.html#profile",
+    "title": "About",
+    "section": "Profile",
+    "text": "Profile\nMDS student at UBC with a BSc in Behavioural Neuroscience and 2+ years of professional experience in population health data management. Brings an interdisciplinary approach to data science rooted in research ethics, health policy, and statistical methodology. Multilingual leader with executive experience across data science, arts, and civic communities."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nMaster of Data Science (MSc.) — University of British Columbia · 2025 — Present - Recipient of the $10,000 Domestic Student Excellence Scholarship for outstanding achievement in data science\nBSc. Behavioural Neuroscience — University of British Columbia · 2019 — 2024 - Coursework in research statistics, experimental design, human subjects ethics, and cognitive systems\nCours de Civilisation Française — La Sorbonne, Paris · Jan — Jun 2019"
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "About",
+    "section": "Work Experience",
+    "text": "Work Experience\nData Access Assistant · Population Data BC · May 2023 — Sep 2025 - Led intake of the Canadian Longitudinal Study on Aging (CLSA) — a novel CIHR dataset with 10,000+ variables — as assigned project lead - Managed data intakes for major stewards including BC Cancer, IRCC, and H.E.L.P.; finalized the DAR 2.0 platform used by health researchers across Canada - Contributed to cross-unit initiatives improving analyst access to administrative health data alongside stewards, researchers, and policy professionals\nResearch Data Scientist · UBC Student Physiotherapy Research Project · 2024 — 2025 - Collaborated as data scientist on a student-led research project led by a Master of Physiotherapy candidate; responsible for data cleaning, analysis, and interpretation\nSocial Student Representative · UBC Master of Data Science · Sep 2025 — Present - Selected as one of six student pillars for MDS Cohort 10; organized a cohort hackathon with secured AI lab sponsorship and led community programming\nGraduate Teaching Assistant (CPSC 100) · UBC Faculty of Science · Aug 2025 — Present\nTeaching Fellow (PSYC 218) · UBC Faculty of Arts · Jan — May 2024 - Awarded graduate-level teaching role after achieving 98% in the course; designed and delivered lectures on SPSS, regression, and ANOVA to ~200 students - Previously served as TA for APSC 160 (C programming, 700+ students, appointed Head TA) and CPSC 100 (200+ students)\nSummer Research Assistant · UBC Social Cognition & Emotion Lab · Apr — Sep 2023 - Collected 250+ participant datasets; managed recruitment, debriefing, and study validity protocols"
+  },
+  {
+    "objectID": "about.html#leadership-community",
+    "href": "about.html#leadership-community",
+    "title": "About",
+    "section": "Leadership & Community",
+    "text": "Leadership & Community\nEvents Director & WiDS Judge/Mentor · UBC Women in Data Science · May 2023 — Present - Directed panel events with speakers from Google, Shopify, and P&G; secured sponsorships and founded a recurring alumni mentorship programme - Judged 11 submissions at WiDS Case Competition (2024) and mentored students on data science careers at WiDS Alumnight\nVP Creative (×2 clubs) · UBC Dance Horizons & UBC Unlimited Dance · Sep 2021 — May 2023 - Held simultaneous executive creative roles across two clubs (20–50 members each); led event production, performance planning, and member coordination for three years\nAdmissions Committee Member · UBC Master of Data Science · 2025 - Reviewed and evaluated applicant submissions for the MDS programme as a student committee member\nProvincial Page · Legislative Assembly of Ontario · Mar — May 2013 - Served in the Ontario Legislature assisting MPPs; present for and assisted in the delivery of the 2013 Provincial Budget"
+  },
+  {
+    "objectID": "about.html#selected-projects-competitions",
+    "href": "about.html#selected-projects-competitions",
+    "title": "About",
+    "section": "Selected Projects & Competitions",
+    "text": "Selected Projects & Competitions\nBizInnovate — Pacific Conference on AI · [1st Place / 18 teams] · Apr 2023 - ML model predicting regional water quality from geospatial data and satellite imagery\nnwPlus 2024 Hackathon · [Track Winner] · Jan 2024 - Digital biomedical waste management system; top 3, Environmental & Sustainability track\nSports Analytics Datathon · [Semi-Finalist] · 2025 - Sole programmer; cleaned soccer club datasets to produce a revenue optimization recommendation\nnwHacks 2025 (Western Canada’s largest hackathon) · 2025 - Built a project integrating the Google Gemini API"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Victoria’s Website",

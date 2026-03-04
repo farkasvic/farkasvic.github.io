@@ -49,11 +49,11 @@
     "text": "A selection of my more prominent projects and work."
   },
   {
-    "objectID": "projects.html#quarto-journal",
-    "href": "projects.html#quarto-journal",
+    "objectID": "projects.html#survival-of-the-fittest-model-optimizing-with-genetic-algorithms",
+    "href": "projects.html#survival-of-the-fittest-model-optimizing-with-genetic-algorithms",
     "title": "Projects",
-    "section": "Quarto Journal",
-    "text": "Quarto Journal\nPlaceholder for your Quarto journal project\nA reproducible research journal written in Quarto, combining narrative, code, and visualizations.\n\nTools: Quarto, R/Python\nLink: Add your journal link here"
+    "section": "Survival of the Fittest (Model): Optimizing with Genetic Algorithms",
+    "text": "Survival of the Fittest (Model): Optimizing with Genetic Algorithms\nSelf-directed exploration beyond a non-formal class assignment\nA tutorial on using genetic algorithms to evolve hyperparameters for machine learning models. I applied bio-inspired optimization (crossover, mutation, fitness selection) to tune a Random Forest classifier and compared it against Random Search—the topic is well-established in the literature; this was my hands-on implementation to understand the approach.\n\nTools: Quarto, Python, scikit-learn\nLink: [Read on Quarto Pub](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)"
   },
   {
     "objectID": "projects.html#project-placeholder-2",

@@ -10,7 +10,7 @@ A selection of my more prominent projects and work.
 ::: {.g-col-12 .g-col-md-6}
 ## Survival of the Fittest (Model): Optimizing with Genetic Algorithms
 
-*Self-directed exploration beyond a non-formal class assignment*
+*Self-directed explorationt*
 
 A tutorial on using genetic algorithms to evolve hyperparameters for machine learning models. I applied bio-inspired optimization (crossover, mutation, fitness selection) to tune a Random Forest classifier and compared it against Random Search—the topic is well-established in the literature; this was my hands-on implementation to understand the approach.
 

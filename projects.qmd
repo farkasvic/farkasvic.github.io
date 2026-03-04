@@ -1,0 +1,59 @@
+---
+title: "Projects"
+---
+
+A selection of my more prominent projects and work.
+
+::: {.projects}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+## Quarto Journal
+
+*Placeholder for your Quarto journal project*
+
+A reproducible research journal written in Quarto, combining narrative, code, and visualizations.
+
+- **Tools:** Quarto, R/Python
+- **Link:** [Add your journal link here](#)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+## Project Placeholder 2
+
+*Add your second project here*
+
+Brief description of the project, its goals, and outcomes.
+
+- **Tools:** Add technologies used
+- **Link:** [Add link or repo](#)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+## Project Placeholder 3
+
+*Add your third project here*
+
+Brief description of the project.
+
+- **Tools:** Add technologies used
+- **Link:** [Add link or repo](#)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+## Project Placeholder 4
+
+*Add your fourth project here*
+
+Brief description of the project.
+
+- **Tools:** Add technologies used
+- **Link:** [Add link or repo](#)
+
+:::
+
+:::
+:::

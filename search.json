@@ -72,37 +72,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi, I’m Victoria",
+    "title": "Victoria Farkas",
     "section": "",
-    "text": "MDS student at UBC with a BSc in Behavioural Neuroscience and 2+ years in population health data management. I bring an interdisciplinary approach to data science rooted in research ethics, health policy, and statistical methodology.\n\nView Full CV Explore Projects"
+    "text": "Hello, I’m\n\n\nData Scientist\n\nGet To Know More"
   },
   {
-    "objectID": "index.html#technical-skills",
-    "href": "index.html#technical-skills",
-    "title": "Hi, I’m Victoria",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\n\nLanguages & Core Python · R · SQL · C\n\n\nData & ML pandas · scikit-learn · TensorFlow · numpy\n\n\nTools & Platforms Git · Docker · Jupyter · Tableau · Quarto\n\n\nLanguages Spoken English (native) · French (B1) · Hungarian (heritage)"
-  },
-  {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
-    "title": "Hi, I’m Victoria",
-    "section": "Featured Projects",
-    "text": "Featured Projects\n\n\n[Survival of the Fittest (Model)](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)\nGenetic algorithms for hyperparameter optimization—a hands-on tutorial comparing GA against Random Search for tuning a Random Forest classifier.\nQuarto · Python · scikit-learn\n\n\nBizInnovate — Pacific Conference on AI · 1st Place\nML model predicting regional water quality from geospatial data and satellite imagery.\nPython · Geospatial · ML\n\n\nnwPlus 2024 Hackathon · Track Winner\nDigital biomedical waste management system; top 3, Environmental & Sustainability track.\nHackathon · Full-stack\n\n\nSports Analytics Datathon · Semi-Finalist\nSole programmer; cleaned soccer club datasets to produce a revenue optimization recommendation.\nPython · Data Analysis\n\n\nView all projects →"
-  },
-  {
-    "objectID": "index.html#quick-links",
-    "href": "index.html#quick-links",
-    "title": "Hi, I’m Victoria",
-    "section": "Quick Links",
-    "text": "Quick Links\n\n\n\nEmail\nvictoriafarkas9@gmail.com\n\n\nLinkedIn\nlinkedin.com/in/victoria-farkas-617262262\n\n\nLocation\nVancouver, BC"
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Victoria Farkas",
+    "section": "Contact Information",
+    "text": "Contact Information\nVictoria Farkas\nVancouver, BC\nvictoriafarkas9@gmail.com\nLinkedIn"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of my more prominent projects and technical explorations."
+    "text": "Browse Through My"
   },
   {
     "objectID": "projects.html#survival-of-the-fittest-model-optimizing-with-genetic-algorithms",

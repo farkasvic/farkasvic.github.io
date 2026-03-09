@@ -14,32 +14,32 @@
     "text": "Browse Through My"
   },
   {
-    "objectID": "projects.html#survival-of-the-fittest-model-optimizing-with-genetic-algorithms",
-    "href": "projects.html#survival-of-the-fittest-model-optimizing-with-genetic-algorithms",
+    "objectID": "projects.html#survival-of-the-fittest-model-optimizing-with-genetic-algorithms-quarto-blog-tutorial",
+    "href": "projects.html#survival-of-the-fittest-model-optimizing-with-genetic-algorithms-quarto-blog-tutorial",
     "title": "Projects",
-    "section": "Survival of the Fittest (Model): Optimizing with Genetic Algorithms",
-    "text": "Survival of the Fittest (Model): Optimizing with Genetic Algorithms\nSelf-directed exploration beyond a non-formal class assignment\nA tutorial on using genetic algorithms to evolve hyperparameters for machine learning models. I applied bio-inspired optimization (crossover, mutation, fitness selection) to tune a Random Forest classifier and compared it against Random Search—the topic is well-established in the literature; this was my hands-on implementation to understand the approach.\n\nTools: Quarto, Python, scikit-learn\nLink: Read on Quarto Pub"
+    "section": "Survival of the Fittest (Model): Optimizing with Genetic Algorithms · Quarto Blog Tutorial",
+    "text": "Survival of the Fittest (Model): Optimizing with Genetic Algorithms · Quarto Blog Tutorial\nSelf-directed exploration beyond a non-formal class assignment\nA hands-on tutorial translating biological evolution into code for hyperparameter optimization. I mapped genetic concepts to Python objects, then implemented crossover, mutation, and generational selection functions. Using the Digits dataset with an intentionally “poisoned” gene pool and 80% test split, the GA converged faster than RandomizedSearchCV under the same computational budget, demonstrating that bio-inspired search can outperform blind random search when the problem rewards propagating good genes across generations.\n\nTools: Quarto, Python, scikit-learn\nLink: Read on Quarto Pub"
   },
   {
-    "objectID": "projects.html#project-placeholder-2",
-    "href": "projects.html#project-placeholder-2",
+    "objectID": "projects.html#multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place",
+    "href": "projects.html#multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place",
     "title": "Projects",
-    "section": "Project Placeholder 2",
-    "text": "Project Placeholder 2\nAdd your second project here\nBrief description of the project, its goals, and outcomes.\n\nTools: Add technologies used\nLink: Add link or repo"
+    "section": "Multimodal pCR Prediction for Breast Cancer · National Canadian Medical Datathon, 3rd Place",
+    "text": "Multimodal pCR Prediction for Breast Cancer · National Canadian Medical Datathon, 3rd Place\nPredicts whether breast cancer patients achieve pathologic complete response (pCR)after Neoadjuvant Chemotherapy (NAC). This outcome is critical for clinical triage: complete responders may avoid additional surgery, while partial responders need different follow-up. First, I engineered a computer vision workflow using OpenCV to edtract spatial biomarkers from high res Whole Slide Images (WSIs): nuclear density, edge complexity, and clump count. Second, these digital pathology features are concatenated with traditional clinical history and fed into a custom Keras neural network. The multimodal approach outperformed tabular-only baselines, achieving 78% overall accuracy, with 92% precision for complete responses and 93% recall for partial responses, balancing sensitivity and specificity for downstream clinical decision support.\n\nTools: Python, OpenCV, Keras\nLink: View on GitHub"
   },
   {
-    "objectID": "projects.html#project-placeholder-3",
-    "href": "projects.html#project-placeholder-3",
+    "objectID": "projects.html#neptune-pacific-conference-on-ai-1st-place",
+    "href": "projects.html#neptune-pacific-conference-on-ai-1st-place",
     "title": "Projects",
-    "section": "Project Placeholder 3",
-    "text": "Project Placeholder 3\nAdd your third project here\nBrief description of the project.\n\nTools: Add technologies used\nLink: Add link or repo"
+    "section": "NepTune · Pacific Conference on AI, 1st Place",
+    "text": "NepTune · Pacific Conference on AI, 1st Place\nA machine learning model that predicts regional water quality by combining geospatial survey data with satellite image feature extraction. Built for the Pacific Conference on Artificial Intelligence, the project placed 1st out of 18 teams. The model ingests satellite data and geo-census data to identify patterns and risk factors for water quality degradation, supporting environmental monitoring and policy decisions. I contributed to the business presentation and technical implementation plan, demonstrating how ML can translate raw geospatial and satellite data into actionable insights for resource management.\n\nTools: Python, Geospatial, Business Implementation\nLink: View Projects"
   },
   {
-    "objectID": "projects.html#project-placeholder-4",
-    "href": "projects.html#project-placeholder-4",
+    "objectID": "projects.html#voxelith-cursor-ai-hackathon",
+    "href": "projects.html#voxelith-cursor-ai-hackathon",
     "title": "Projects",
-    "section": "Project Placeholder 4",
-    "text": "Project Placeholder 4\nAdd your fourth project here\nBrief description of the project.\n\nTools: Add technologies used\nLink: Add link or repo"
+    "section": "Voxelith · Cursor AI Hackathon",
+    "text": "Voxelith · Cursor AI Hackathon\nA volumetric anatomical matrix and spatial intelligence engine for neuroscience research, teaching, and clinical exploration. Built on the Allen Mouse Brain Atlas via the BrainGlobe API, Voxelith renders interactive 3D glass-brain views in the browser. Users can multiselect brain regions and toggle a transparent overlay for context or clearer hover interaction. Voxel mode converts mesh surfaces to discrete voxel grids, reporting count, resolution, and volume which is useful for quantifying region size and comparing across conditions. The pathology simulator auto-loads affected regions for clinical presets: ischemic stroke (MCA territory), glioblastoma (butterfly pattern), and thalamic hemorrhage. The density heatmap colors vertices by distance from centroid using a Viridis colormap.\n\nTools: Python, Streamlit, Plotly, PyVista\nLink: View on GitHub"
   },
   {
     "objectID": "index.html",
@@ -60,28 +60,28 @@
     "href": "beyond-data.html",
     "title": "Beyond Data",
     "section": "",
-    "text": "When I’m not wrangling data or tuning models, here’s what keeps me going."
+    "text": "When I’m not wrangling data or tuning models, here’s where you can find me :)"
   },
   {
     "objectID": "beyond-data.html#dance",
     "href": "beyond-data.html#dance",
     "title": "Beyond Data",
     "section": "Dance",
-    "text": "Dance\nI’ve held executive creative roles across UBC Dance Horizons and UBC Unlimited Dance—leading event production, performance planning, and member coordination for three years. Dance is where I channel creativity, discipline, and collaboration outside the terminal.\nPlaceholder: Add photos, performances, or links to dance content."
+    "text": "Dance\nFor three years, I’ve held executive creative roles across UBC Dance Horizons and UBC Unlimited Dance, leading event production, performance planning, and social media design. Beyond creative direction, I actively perform with a local dance team, taking the stage at Vancouver Whitecaps halftime shows, collaborating with local artists, and performing across the Pride Festival circuit. Whether I’m organizing a large scale production or performing for thousands, dance is where I channel my creativity.\n\n\n\n\n\nWhitecaps 2025 Performance"
   },
   {
     "objectID": "beyond-data.html#creative-community",
     "href": "beyond-data.html#creative-community",
     "title": "Beyond Data",
     "section": "Creative & Community",
-    "text": "Creative & Community\nFrom arts to civic engagement, I bring the same energy to communities beyond data science. Former Provincial Page at the Ontario Legislature, current WiDS Events Director—I believe in building bridges between technical work and the people it serves.\nPlaceholder: Expand with specific hobbies, interests, or side projects."
+    "text": "Creative & Community\nFrom arts to civic engagement, I bring the same energy to communities beyond data science. From acting as Provincial Page at the Ontario Legislature, to WiDS Events Director, to Social Student Representative for the UBC MDS program, I believe in building bridges between technical work and the people it serves.\nDuring my time in UBC WiDS I proposed and led the organization of an annual alumni mentorship event: Alumnight. I also helped organize the premier instance of YouCode (sponsored by Arc’teryx), one of UBC’s largest hackathons. Fun fact, I also led a dance workshop during the event itself!\n\n\n\n\n\nWiDS Alumnight\n\n\n\n\n\n\n\nWiDS Community Outreach"
   },
   {
     "objectID": "beyond-data.html#off-the-clock",
     "href": "beyond-data.html#off-the-clock",
     "title": "Beyond Data",
     "section": "Off the Clock",
-    "text": "Off the Clock\n\nCurrently reading: Add your current book\nCurrently learning: Add a non-DS skill or hobby\nFun fact: Something unexpected about you\n\nCustomize this section to reflect your personality—travel, food, music, sports, whatever makes you you."
+    "text": "Off the Clock\n\nCurrently reading: The Spellbook of Listen Taylor\nCurrently learning: Relearning cello after a loooong hiatus\nFun fact: I will randomly bake something and bring it to class/work for people to give me their opinions!"
   },
   {
     "objectID": "cv.html",

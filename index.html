@@ -171,8 +171,11 @@ ul.task-list li input[type="checkbox"] {
 <div class="section-label">
 <p>Get To Know More</p>
 </div>
-<section id="about-victoria-farkas" class="level1 section-title">
-<h1 class="section-title">About Victoria Farkas</h1>
+<section id="about-me" class="level1 section-title">
+<h1 class="section-title">About Me</h1>
+<div class="profile-photo-container">
+<p><img src="assets/profilephoto.png" class="img-fluid"></p>
+</div>
 <div class="text_container">
 <p>My path to data science was a bit unconventional; it started in Behavioural Neuroscience. Making the leap from studying the brain to pursuing my Master’s in Data Science felt like a completely natural evolution. I’ve always been driven by a need to dissect complex problems, and this field gives me the actual tools to build the solutions.</p>
 <p>What I love most about data science is that it refuses to let you stagnate; the dynamic challenges demand constant learning and adaptation. I approach my technical work with a highly interdisciplinary mindset. Thanks to my 2+ years managing population health data at Population Data BC, my analytical skills are deeply rooted in research ethics, data policy, and rigorous statistical methodology. I am also an eager student and flexible across many domains and disciplines, due to my rich and diverse educational/work backgrounds.</p>
@@ -247,30 +250,70 @@ ul.task-list li input[type="checkbox"] {
 <section id="projects" class="level1 section-title">
 <h1 class="section-title">Projects</h1>
 <div class="details_container">
-<section id="multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place" class="level3 project-card">
+<div class="project-card">
+<div class="project-card-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/patch_samples.png" class="img-fluid figure-img"></p>
+<figcaption>Patch samples from Whole Slide Images</figcaption>
+</figure>
+</div>
+</div>
+<section id="multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place" class="level3">
 <h3 class="anchored" data-anchor-id="multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place">Multimodal pCR Prediction for Breast Cancer · <strong>National Canadian Medical Datathon, 3rd Place</strong></h3>
-<p>End-to-end multimodal deep learning pipeline predicting pathologic complete response in breast cancer patients. Computer vision workflow with OpenCV for spatial biomarkers from Whole Slide Images, plus a custom Keras neural network.</p>
+<p>Predicts pCR in breast cancer post-chemotherapy. OpenCV extracts spatial biomarkers from Whole Slide Images; Keras neural network fuses pathology + clinical data. 78% accuracy, 92% precision.</p>
 <p><em>Python · OpenCV · Keras · Project Management</em></p>
 <p><a href="https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026" class="project-link">View Project →</a></p>
 </section>
-<section id="survival-of-the-fittest-model-quarto-blog-tutorial" class="level3 project-card">
+</div>
+<div class="project-card">
+<div class="project-card-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/survival.png" class="img-fluid figure-img"></p>
+<figcaption>Final model performance Comparison</figcaption>
+</figure>
+</div>
+</div>
+<section id="survival-of-the-fittest-model-quarto-blog-tutorial" class="level3">
 <h3 class="anchored" data-anchor-id="survival-of-the-fittest-model-quarto-blog-tutorial">Survival of the Fittest (Model) · <strong>Quarto Blog Tutorial</strong></h3>
-<p>Genetic algorithms for hyperparameter optimization—a hands-on tutorial comparing GA against Random Search for tuning a Random Forest classifier.</p>
+<p>Evolve hyperparameters with genetic algorithms. A Hands on tutorial: GA vs Random Search on a Random Forest classifier.</p>
 <p><em>Quarto · Python · scikit-learn</em></p>
-<p><a href="https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)" class="project-link">View Project →</a></p>
+<p><a href="https://farkasvic.quarto.pub/survival-of-the-fittest-%28model-optimizing-with-genetic-algorithms/%29" class="project-link">View Project →</a></p>
 </section>
-<section id="neptune-pacific-conference-on-ai-1st-place" class="level3 project-card">
+</div>
+<div class="project-card">
+<div class="project-card-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/neptune.png" class="img-fluid figure-img"></p>
+<figcaption>NepTune water quality prediction</figcaption>
+</figure>
+</div>
+</div>
+<section id="neptune-pacific-conference-on-ai-1st-place" class="level3">
 <h3 class="anchored" data-anchor-id="neptune-pacific-conference-on-ai-1st-place">NepTune · <strong>Pacific Conference on AI, 1st Place</strong></h3>
-<p>ML model predicting regional water quality from geospatial data and satellite imagery.</p>
+<p>1st-place ML model predicting regional water quality from geospatial survey data and satellite image features.</p>
 <p><em>Python · Geospatial · Business Implementation</em></p>
 <p><a href="./projects.html" class="project-link">View Projects</a></p>
 </section>
-<section id="wastewizard-nwplus-2024-hackathon-track-winner" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="wastewizard-nwplus-2024-hackathon-track-winner">WasteWizard · <strong>nwPlus 2024 Hackathon, Track Winner</strong></h3>
-<p>Digital biomedical waste management system; top 3, Environmental &amp; Sustainability track.</p>
-<p><em>Hackathon · Ecological Research</em></p>
-<p><a href="./projects.html" class="project-link">View Projects</a></p>
+</div>
+<div class="project-card">
+<div class="project-card-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/voxelith.png" class="img-fluid figure-img"></p>
+<figcaption>Voxelith 3D brain visualization</figcaption>
+</figure>
+</div>
+</div>
+<section id="voxelith-cursor-ai-hackathon" class="level3">
+<h3 class="anchored" data-anchor-id="voxelith-cursor-ai-hackathon">Voxelith · <strong>Cursor AI Hackathon</strong></h3>
+<p>3D brain visualization engine. Allen Atlas, voxelization, pathology simulation (stroke, glioblastoma), lesion mode, density heatmaps.</p>
+<p><em>Python · Streamlit · Plotly · PyVista</em></p>
+<p><a href="https://github.com/farkasvic/voxelith" class="project-link">View Project →</a></p>
 </section>
+</div>
 </div>
 <p><a href="./projects.html" class="btn_color mt-3">View all projects →</a></p>
 </section>
@@ -283,18 +326,30 @@ ul.task-list li input[type="checkbox"] {
 <section id="other-platforms" class="level1 section-title">
 <h1 class="section-title">Other Platforms</h1>
 <div class="platforms_container">
-<section id="linkedin" class="level3 platform-card">
+<div class="platform-card">
+<div class="platform-icon">
+<p><i class="bi bi-linkedin"></i></p>
+</div>
+<section id="linkedin" class="level3">
 <h3 class="anchored" data-anchor-id="linkedin"><a href="https://linkedin.com/in/victoria-farkas-617262262">LinkedIn</a></h3>
-<p>Connect and follow my professional journey</p>
 </section>
-<section id="quarto-pub" class="level3 platform-card">
+</div>
+<div class="platform-card">
+<div class="platform-icon">
+<p><i class="bi bi-journal-code"></i></p>
+</div>
+<section id="quarto-pub" class="level3">
 <h3 class="anchored" data-anchor-id="quarto-pub"><a href="https://farkasvic.quarto.pub/">Quarto Pub</a></h3>
-<p>Read my technical tutorials and insights</p>
 </section>
-<section id="github" class="level3 platform-card">
+</div>
+<div class="platform-card">
+<div class="platform-icon">
+<p><i class="bi bi-github"></i></p>
+</div>
+<section id="github" class="level3">
 <h3 class="anchored" data-anchor-id="github"><a href="https://github.com/farkasvic">GitHub</a></h3>
-<p>All things code</p>
 </section>
+</div>
 </div>
 </section>
 </div>

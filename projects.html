@@ -166,48 +166,85 @@ ul.task-list li input[type="checkbox"] {
 <div class="projects">
 <div class="grid projects-grid">
 <div class="g-col-12 g-col-md-6">
-<section id="survival-of-the-fittest-model-optimizing-with-genetic-algorithms" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="survival-of-the-fittest-model-optimizing-with-genetic-algorithms">Survival of the Fittest (Model): Optimizing with Genetic Algorithms</h2>
+<div class="project-card">
+<div class="project-card-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/survival.png" class="img-fluid figure-img"></p>
+<figcaption>Final model performance comparison</figcaption>
+</figure>
+</div>
+</div>
+<section id="survival-of-the-fittest-model-optimizing-with-genetic-algorithms-quarto-blog-tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="survival-of-the-fittest-model-optimizing-with-genetic-algorithms-quarto-blog-tutorial"><a href="https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)">Survival of the Fittest (Model): Optimizing with Genetic Algorithms</a> · <strong>Quarto Blog Tutorial</strong></h2>
 <p><em>Self-directed exploration beyond a non-formal class assignment</em></p>
-<p>A tutorial on using genetic algorithms to evolve hyperparameters for machine learning models. I applied bio-inspired optimization (crossover, mutation, fitness selection) to tune a Random Forest classifier and compared it against Random Search—the topic is well-established in the literature; this was my hands-on implementation to understand the approach.</p>
+<p>A hands-on tutorial translating biological evolution into code for hyperparameter optimization. I mapped genetic concepts to Python objects, then implemented crossover, mutation, and generational selection functions. Using the Digits dataset with an intentionally “poisoned” gene pool and 80% test split, the GA converged faster than RandomizedSearchCV under the same computational budget, demonstrating that bio-inspired search can outperform blind random search when the problem rewards propagating good genes across generations.</p>
 <ul>
 <li><strong>Tools:</strong> Quarto, Python, scikit-learn</li>
 <li><strong>Link:</strong> <a href="https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)" class="project-link">Read on Quarto Pub</a></li>
 </ul>
 </section>
 </div>
+</div>
 <div class="g-col-12 g-col-md-6">
-<section id="project-placeholder-2" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="project-placeholder-2">Project Placeholder 2</h2>
-<p><em>Add your second project here</em></p>
-<p>Brief description of the project, its goals, and outcomes.</p>
+<div class="project-card">
+<div class="project-card-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/patch_samples.png" class="img-fluid figure-img"></p>
+<figcaption>Patch samples from Whole Slide Images</figcaption>
+</figure>
+</div>
+</div>
+<section id="multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place" class="level2">
+<h2 class="anchored" data-anchor-id="multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place"><a href="https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026">Multimodal pCR Prediction for Breast Cancer</a> · <strong>National Canadian Medical Datathon, 3rd Place</strong></h2>
+<p>Predicts whether breast cancer patients achieve pathologic complete response (pCR)after Neoadjuvant Chemotherapy (NAC). This outcome is critical for clinical triage: complete responders may avoid additional surgery, while partial responders need different follow-up. First, I engineered a computer vision workflow using OpenCV to edtract spatial biomarkers from high res Whole Slide Images (WSIs): nuclear density, edge complexity, and clump count. Second, these digital pathology features are concatenated with traditional clinical history and fed into a custom Keras neural network. The multimodal approach outperformed tabular-only baselines, achieving 78% overall accuracy, with 92% precision for complete responses and 93% recall for partial responses, balancing sensitivity and specificity for downstream clinical decision support.</p>
 <ul>
-<li><strong>Tools:</strong> Add technologies used</li>
-<li><strong>Link:</strong> <a href="#" class="project-link">Add link or repo</a></li>
+<li><strong>Tools:</strong> Python, OpenCV, Keras</li>
+<li><strong>Link:</strong> <a href="https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026" class="project-link">View on GitHub</a></li>
 </ul>
 </section>
 </div>
+</div>
 <div class="g-col-12 g-col-md-6">
-<section id="project-placeholder-3" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="project-placeholder-3">Project Placeholder 3</h2>
-<p><em>Add your third project here</em></p>
-<p>Brief description of the project.</p>
+<div class="project-card">
+<div class="project-card-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/neptune.png" class="img-fluid figure-img"></p>
+<figcaption>NepTune water quality prediction</figcaption>
+</figure>
+</div>
+</div>
+<section id="neptune-pacific-conference-on-ai-1st-place" class="level2">
+<h2 class="anchored" data-anchor-id="neptune-pacific-conference-on-ai-1st-place">NepTune · <strong>Pacific Conference on AI, 1st Place</strong></h2>
+<p>A machine learning model that predicts regional water quality by combining geospatial survey data with satellite image feature extraction. Built for the Pacific Conference on Artificial Intelligence, the project placed 1st out of 18 teams. The model ingests satellite data and geo-census data to identify patterns and risk factors for water quality degradation, supporting environmental monitoring and policy decisions. I contributed to the business presentation and technical implementation plan, demonstrating how ML can translate raw geospatial and satellite data into actionable insights for resource management.</p>
 <ul>
-<li><strong>Tools:</strong> Add technologies used</li>
-<li><strong>Link:</strong> <a href="#" class="project-link">Add link or repo</a></li>
+<li><strong>Tools:</strong> Python, Geospatial, Business Implementation</li>
+<li><strong>Link:</strong> <a href="./projects.html" class="project-link">View Projects</a></li>
 </ul>
 </section>
 </div>
+</div>
 <div class="g-col-12 g-col-md-6">
-<section id="project-placeholder-4" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="project-placeholder-4">Project Placeholder 4</h2>
-<p><em>Add your fourth project here</em></p>
-<p>Brief description of the project.</p>
+<div class="project-card">
+<div class="project-card-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/voxelith.png" class="img-fluid figure-img"></p>
+<figcaption>Voxelith 3D brain visualization</figcaption>
+</figure>
+</div>
+</div>
+<section id="voxelith-cursor-ai-hackathon" class="level2">
+<h2 class="anchored" data-anchor-id="voxelith-cursor-ai-hackathon"><a href="https://github.com/farkasvic/voxelith">Voxelith</a> · <strong>Cursor AI Hackathon</strong></h2>
+<p>A volumetric anatomical matrix and spatial intelligence engine for neuroscience research, teaching, and clinical exploration. Built on the Allen Mouse Brain Atlas via the BrainGlobe API, Voxelith renders interactive 3D glass-brain views in the browser. Users can multiselect brain regions and toggle a transparent overlay for context or clearer hover interaction. Voxel mode converts mesh surfaces to discrete voxel grids, reporting count, resolution, and volume which is useful for quantifying region size and comparing across conditions. The pathology simulator auto-loads affected regions for clinical presets: ischemic stroke (MCA territory), glioblastoma (butterfly pattern), and thalamic hemorrhage. The density heatmap colors vertices by distance from centroid using a Viridis colormap.</p>
 <ul>
-<li><strong>Tools:</strong> Add technologies used</li>
-<li><strong>Link:</strong> <a href="#" class="project-link">Add link or repo</a></li>
+<li><strong>Tools:</strong> Python, Streamlit, Plotly, PyVista</li>
+<li><strong>Link:</strong> <a href="https://github.com/farkasvic/voxelith" class="project-link">View on GitHub</a></li>
 </ul>
 </section>
+</div>
 </div>
 </div>
 </div>

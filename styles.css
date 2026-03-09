@@ -1,6 +1,6 @@
 /* Victoria Farkas — Lanre Akinbo-inspired portfolio */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
   --accent-blue: #6091cc;
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 p {
@@ -81,7 +81,9 @@ a:hover {
   cursor: pointer;
   text-decoration: none !important;
   display: inline-block;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .btn_color:hover {
@@ -126,6 +128,29 @@ a:hover {
 #about-section {
   padding: 4rem 2rem;
   text-align: center;
+}
+
+.profile-photo-container {
+  margin: 0 auto 2rem;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* THIS IS THE MAGIC FIX: Kills Quarto's default paragraph margins */
+.profile-photo-container p {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.profile-photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%; /* Shifts focus up so your face isn't cropped */
 }
 
 .text_container {
@@ -174,7 +199,9 @@ a:hover {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .proficiency-card:hover {
@@ -191,10 +218,12 @@ a:hover {
   margin-bottom: 1rem;
   background: var(--accent-gradient);
   border-radius: 16px;
-  color: white !important;
+  color: white !important; /* Creates the stencil/cutout effect */
   font-size: 1.5rem;
   box-shadow: 0 4px 12px rgba(96, 145, 204, 0.35);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .proficiency-card:hover .proficiency-icon {
@@ -204,6 +233,8 @@ a:hover {
 
 .proficiency-icon .bi {
   font-size: 1.5rem;
+  color: white !important; /* Creates the stencil/cutout effect */
+  fill: white !important; /* Ensures SVGs also turn white */
 }
 
 .proficiency-card h3 {
@@ -240,12 +271,27 @@ a:hover {
   max-width: 400px;
   text-align: left;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .project-card:hover {
   transform: scale(1.02);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-card-image {
+  margin: -1.5rem -1.5rem 1rem -1.5rem;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
 }
 
 .project-card h3 {
@@ -287,6 +333,14 @@ a:hover {
   text-decoration: underline !important;
 }
 
+.project-card figcaption,
+.project-card .figure-caption {
+  text-align: center !important;
+  font-weight: 400 !important; /* 400 is standard normal weight, stripping away the bold */
+  font-size: 0.3em; /* Optional: making it slightly smaller helps differentiate it from the main text */
+  margin-top: 8px; /* Adds a little breathing room between the image and the text */
+}
+
 /* ---- Other Platforms ---- */
 #platforms-section {
   padding: 4rem 2rem;
@@ -309,12 +363,49 @@ a:hover {
   max-width: 280px;
   text-align: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .platform-card:hover {
   transform: scale(1.02);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.platform-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  background: var(--accent-gradient);
+  border-radius: 12px;
+  color: white !important;
+  font-size: 1.35rem;
+  box-shadow: 0 3px 10px rgba(96, 145, 204, 0.3);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.platform-card:hover .platform-icon {
+  transform: scale(1.1);
+  box-shadow: 0 5px 14px rgba(96, 145, 204, 0.4);
+}
+
+.platform-icon .bi,
+.platform-icon svg {
+  font-size: 1.35rem;
+  color: white !important; /* Creates the stencil/cutout effect */
+  fill: white !important; /* Ensures SVGs also turn white */
+
+  /* Centering overrides */
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .platform-card h3 {
@@ -482,7 +573,9 @@ a:hover {
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  transition: background 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
   flex-shrink: 0;
 }
 
@@ -535,7 +628,9 @@ a:hover {
 }
 
 [data-theme="dark"] .quarto-title,
-[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3 {
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3 {
   color: var(--text-dark) !important;
 }
 
@@ -573,6 +668,14 @@ a:hover {
   box-shadow: 0 6px 16px rgba(126, 179, 232, 0.5);
 }
 
+[data-theme="dark"] .platform-icon {
+  box-shadow: 0 3px 10px rgba(126, 179, 232, 0.35);
+}
+
+[data-theme="dark"] .platform-card:hover .platform-icon {
+  box-shadow: 0 5px 14px rgba(126, 179, 232, 0.45);
+}
+
 [data-theme="dark"] .proficiency-card,
 [data-theme="dark"] .project-card,
 [data-theme="dark"] .platform-card {
@@ -596,6 +699,7 @@ a:hover {
 
 [data-theme="dark"] .proficiency-card p,
 [data-theme="dark"] .project-card p,
+[data-theme="dark"] .project-card em,
 [data-theme="dark"] .platform-card p {
   color: var(--text-muted) !important;
 }

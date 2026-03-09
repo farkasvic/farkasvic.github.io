@@ -13,5 +13,11 @@
   },
   "cv.qmd": {
     "cv.html": "a7db3e4c"
+  },
+  "cv.md": {
+    "cv.html": "8d5bb9e5"
+  },
+  "cv_draft.md": {
+    "cv_draft.html": "6d3b73ee"
   }
 }

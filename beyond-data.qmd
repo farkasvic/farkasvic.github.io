@@ -1,0 +1,32 @@
+---
+title: "Beyond Data"
+subtitle: "Hobbies & personality"
+---
+
+When I'm not wrangling data or tuning models, here's what keeps me going.
+
+---
+
+## Dance {.mt-4}
+
+I've held executive creative roles across **UBC Dance Horizons** and **UBC Unlimited Dance**—leading event production, performance planning, and member coordination for three years. Dance is where I channel creativity, discipline, and collaboration outside the terminal.
+
+*Placeholder: Add photos, performances, or links to dance content.*
+
+---
+
+## Creative & Community {.mt-4}
+
+From arts to civic engagement, I bring the same energy to communities beyond data science. Former Provincial Page at the Ontario Legislature, current WiDS Events Director—I believe in building bridges between technical work and the people it serves.
+
+*Placeholder: Expand with specific hobbies, interests, or side projects.*
+
+---
+
+## Off the Clock {.mt-4}
+
+- **Currently reading:** *Add your current book*
+- **Currently learning:** *Add a non-DS skill or hobby*
+- **Fun fact:** *Something unexpected about you*
+
+*Customize this section to reflect your personality—travel, food, music, sports, whatever makes you you.*

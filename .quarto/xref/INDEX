@@ -7,5 +7,11 @@
   },
   "projects.qmd": {
     "projects.html": "22f67556"
+  },
+  "beyond-data.qmd": {
+    "beyond-data.html": "08cb719a"
+  },
+  "cv.qmd": {
+    "cv.html": "a7db3e4c"
   }
 }

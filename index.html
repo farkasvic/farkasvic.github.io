@@ -68,6 +68,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+(function() {
+  var theme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', theme);
+})();
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -134,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Victoria Farkas</h1>
-<p class="subtitle lead">Data Scientist</p>
+<p class="subtitle lead">BSc. Behavioural Neuroscience, MSc. Data Science (In Progress)</p>
 </div>
 
 
@@ -152,10 +158,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div id="profile-section">
-<p>Hello, I’m</p>
-<section id="victoria-farkas" class="level1 profile-name">
-<h1 class="profile-name">Victoria Farkas</h1>
-<p>Data Scientist</p>
+<p>Hello,</p>
+<section id="welcome-to-my-portfolio" class="level1 profile-name">
+<h1 class="profile-name">Welcome to my Portfolio!</h1>
 <div class="btn_container">
 <p><a href="#about-section" class="btn_color">Get To Know More</a></p>
 </div>
@@ -169,9 +174,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="about-victoria-farkas" class="level1 section-title">
 <h1 class="section-title">About Victoria Farkas</h1>
 <div class="text_container">
-<p>I have a background in Behavioural Neuroscience and my journey into data science is a natural evolution. I’ve always been drawn to problem-solving, and data provides the perfect canvas for my curious mind to explore and innovate.</p>
-<p>What excites me most about this field is its constant evolution, dynamic challenges, and the continuous learning it demands. I bring an interdisciplinary approach rooted in research ethics, health policy, and statistical methodology—with 2+ years in population health data management at Population Data BC.</p>
-<p>Beyond data, I lead in dance communities, direct events for Women in Data Science, and find balance through creative pursuits. These interests fuel creativity and keep me energized for data’s challenges.</p>
+<p>My path to data science was a bit unconventional; it started in Behavioural Neuroscience. Making the leap from studying the brain to pursuing my Master’s in Data Science felt like a completely natural evolution. I’ve always been driven by a need to dissect complex problems, and this field gives me the actual tools to build the solutions.</p>
+<p>What I love most about data science is that it refuses to let you stagnate; the dynamic challenges demand constant learning and adaptation. I approach my technical work with a highly interdisciplinary mindset. Thanks to my 2+ years managing population health data at Population Data BC, my analytical skills are deeply rooted in research ethics, data policy, and rigorous statistical methodology. I am also an eager student and flexible across many domains and disciplines, due to my rich and diverse educational/work backgrounds.</p>
+<p>But I know the best problem solving often happens when you step away from the screen. Whether I’m staying involved with my alma mater club community: UBC Women in Data Science (WiDS), or performing with my dance team, staying connected to my creative and leadership pursuits is exactly what keeps me energized for the next coding sprint.</p>
 </div>
 </section>
 </div>
@@ -183,29 +188,54 @@ ul.task-list li input[type="checkbox"] {
 <section id="proficiencies" class="level1 section-title">
 <h1 class="section-title">Proficiencies</h1>
 <div class="proficiencies-intro">
-<p>I can optimize your data for better results and informed decisions. My proficiency in Python, R, SQL, and tools like scikit-learn, TensorFlow, and Tableau—combined with strong soft skills—enables me to deliver impactful data solutions.</p>
+<p>My approach to data science is inherently interdisciplinary. I ground technical building deep learning pipelines in TensorFlow/Keras and robust algorithms in Python/R, in the rigorous context of neuroscience research and population health data. I build end-to-end solutions focused on real-world impact, pairing hard technical skills with the project management, creative problem-solving, and dynamic leadership required to drive complex technical projects from abstract concept to successful deployment.</p>
 </div>
 <div class="article_container">
-<section id="data-analysis" class="level3 proficiency-card">
-<h3 class="anchored" data-anchor-id="data-analysis">Data Analysis</h3>
-<p>Uncover hidden insights and patterns within your data to identify trends, anomalies, and opportunities for data-driven decision-making.</p>
+<div class="proficiency-card">
+<div class="proficiency-icon">
+<p><i class="bi bi-robot"></i></p>
+</div>
+<section id="machine-learning-computer-vision" class="level3">
+<h3 class="anchored" data-anchor-id="machine-learning-computer-vision">Machine Learning &amp; Computer Vision</h3>
+<p>Architect and train advanced predictive models, moving beyond standard tabular data to build multimodal deep learning pipelines. Proficient in leveraging frameworks like PyTorch and TensorFlow/Keras to solve complex, high-dimensional problems.</p>
 </section>
-<section id="data-analytics" class="level3 proficiency-card">
-<h3 class="anchored" data-anchor-id="data-analytics">Data Analytics</h3>
-<p>Harness the power of advanced analytics, including predictive models and machine learning solutions to forecast outcomes and optimize processes.</p>
+</div>
+<div class="proficiency-card">
+<div class="proficiency-icon">
+<p><i class="bi bi-clipboard-data"></i></p>
+</div>
+<section id="health-data-statistical-methodology" class="level3">
+<h3 class="anchored" data-anchor-id="health-data-statistical-methodology">Health Data &amp; Statistical Methodology</h3>
+<p>Grounded in behavioral neuroscience and 2+ years managing population health data. I design rigorous, bias-aware data pipelines backed by strong statistical methodology, research ethics, and an understanding of domain-specific constraints.</p>
 </section>
-<section id="data-visualization" class="level3 proficiency-card">
-<h3 class="anchored" data-anchor-id="data-visualization">Data Visualization</h3>
-<p>Transform complex data into clear and compelling visual narratives. Create custom dashboards and reports for enhanced data communication.</p>
+</div>
+<div class="proficiency-card">
+<div class="proficiency-icon">
+<p><i class="bi bi-bar-chart-line"></i></p>
+</div>
+<section id="interactive-data-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-data-visualization">Interactive Data Visualization</h3>
+<p>Transform complex datasets and model outputs into intuitive, interactive tools. From building dynamic Streamlit applications to designing comprehensive dashboards, I make high-level algorithmic outputs actionable for stakeholders.</p>
 </section>
-<section id="technical-writing" class="level3 proficiency-card">
-<h3 class="anchored" data-anchor-id="technical-writing">Technical Writing</h3>
-<p>Translate intricate technical concepts into clear documentation. From reports to tutorials, I ensure your data projects are well-documented.</p>
+</div>
+<div class="proficiency-card">
+<div class="proficiency-icon">
+<p><i class="bi bi-journal-text"></i></p>
+</div>
+<section id="technical-communication-reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="technical-communication-reproducibility">Technical Communication &amp; Reproducibility</h3>
+<p>Translate intricate architectures into clear, reproducible documentation and tutorials. Drawing from my experience as a Teaching Fellow, I ensure complex data concepts and codebases are accessible to both technical and non-technical audiences.</p>
 </section>
-<section id="collaboration" class="level3 proficiency-card">
-<h3 class="anchored" data-anchor-id="collaboration">Collaboration</h3>
-<p>Collaborate seamlessly to integrate data solutions into business processes. Whether short-term projects or ongoing initiatives, I’m here to support success.</p>
+</div>
+<div class="proficiency-card">
+<div class="proficiency-icon">
+<p><i class="bi bi-diagram-3"></i></p>
+</div>
+<section id="technical-leadership-project-management" class="level3">
+<h3 class="anchored" data-anchor-id="technical-leadership-project-management">Technical Leadership &amp; Project Management</h3>
+<p>Bridge the gap between technical execution and project strategy. With experience directing hackathon teams, community events, and health technology implementation, I drive collaborative solutions from abstract concept to successful deployment.</p>
 </section>
+</div>
 </div>
 </section>
 </div>
@@ -217,28 +247,28 @@ ul.task-list li input[type="checkbox"] {
 <section id="projects" class="level1 section-title">
 <h1 class="section-title">Projects</h1>
 <div class="details_container">
-<section id="survival-of-the-fittest-model" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="survival-of-the-fittest-model"><a href="https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)">Survival of the Fittest (Model)</a></h3>
+<section id="multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="multimodal-pcr-prediction-for-breast-cancer-national-canadian-medical-datathon-3rd-place">Multimodal pCR Prediction for Breast Cancer · <strong>National Canadian Medical Datathon, 3rd Place</strong></h3>
+<p>End-to-end multimodal deep learning pipeline predicting pathologic complete response in breast cancer patients. Computer vision workflow with OpenCV for spatial biomarkers from Whole Slide Images, plus a custom Keras neural network.</p>
+<p><em>Python · OpenCV · Keras · Project Management</em></p>
+<p><a href="https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026" class="project-link">View Project →</a></p>
+</section>
+<section id="survival-of-the-fittest-model-quarto-blog-tutorial" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="survival-of-the-fittest-model-quarto-blog-tutorial">Survival of the Fittest (Model) · <strong>Quarto Blog Tutorial</strong></h3>
 <p>Genetic algorithms for hyperparameter optimization—a hands-on tutorial comparing GA against Random Search for tuning a Random Forest classifier.</p>
 <p><em>Quarto · Python · scikit-learn</em></p>
 <p><a href="https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)" class="project-link">View Project →</a></p>
 </section>
-<section id="bizinnovate-pacific-conference-on-ai-1st-place" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="bizinnovate-pacific-conference-on-ai-1st-place">BizInnovate — Pacific Conference on AI · <strong>1st Place</strong></h3>
+<section id="neptune-pacific-conference-on-ai-1st-place" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="neptune-pacific-conference-on-ai-1st-place">NepTune · <strong>Pacific Conference on AI, 1st Place</strong></h3>
 <p>ML model predicting regional water quality from geospatial data and satellite imagery.</p>
-<p><em>Python · Geospatial · ML</em></p>
+<p><em>Python · Geospatial · Business Implementation</em></p>
 <p><a href="./projects.html" class="project-link">View Projects</a></p>
 </section>
-<section id="nwplus-2024-hackathon-track-winner" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="nwplus-2024-hackathon-track-winner">nwPlus 2024 Hackathon · <strong>Track Winner</strong></h3>
+<section id="wastewizard-nwplus-2024-hackathon-track-winner" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="wastewizard-nwplus-2024-hackathon-track-winner">WasteWizard · <strong>nwPlus 2024 Hackathon, Track Winner</strong></h3>
 <p>Digital biomedical waste management system; top 3, Environmental &amp; Sustainability track.</p>
-<p><em>Hackathon · Full-stack</em></p>
-<p><a href="./projects.html" class="project-link">View Projects</a></p>
-</section>
-<section id="sports-analytics-datathon-semi-finalist" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="sports-analytics-datathon-semi-finalist">Sports Analytics Datathon · <strong>Semi-Finalist</strong></h3>
-<p>Sole programmer; cleaned soccer club datasets to produce a revenue optimization recommendation.</p>
-<p><em>Python · Data Analysis</em></p>
+<p><em>Hackathon · Ecological Research</em></p>
 <p><a href="./projects.html" class="project-link">View Projects</a></p>
 </section>
 </div>
@@ -290,6 +320,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+(function() {
+  var html = document.documentElement;
+
+  var toggle = document.createElement('button');
+  toggle.id = 'dark-mode-toggle';
+  toggle.className = 'dark-mode-toggle';
+  toggle.setAttribute('aria-label', 'Toggle dark mode');
+  toggle.setAttribute('title', 'Toggle dark mode');
+  toggle.innerHTML = '<span class="dark-mode-icon sun-icon" aria-hidden="true">☀️</span><span class="dark-mode-icon moon-icon" aria-hidden="true">🌙</span>';
+
+  function setTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    toggle.classList.toggle('dark', theme === 'dark');
+  }
+
+  toggle.addEventListener('click', function() {
+    var current = html.getAttribute('data-theme') || 'light';
+    setTheme(current === 'light' ? 'dark' : 'light');
+  });
+
+  var theme = html.getAttribute('data-theme') || 'light';
+  toggle.classList.toggle('dark', theme === 'dark');
+
+  var target = document.querySelector('.quarto-navbar-tools') || document.querySelector('.navbar-nav.ms-auto');
+  if (target) {
+    if (target.classList.contains('quarto-navbar-tools')) {
+      target.insertBefore(toggle, target.firstChild);
+    } else {
+      var li = document.createElement('li');
+      li.className = 'nav-item';
+      li.style.marginRight = '0.5rem';
+      li.appendChild(toggle);
+      target.insertBefore(li, target.firstChild);
+    }
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -68,6 +68,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+(function() {
+  var theme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', theme);
+})();
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -152,70 +158,222 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="victoria-farkas" class="level1">
 <h1>Victoria Farkas</h1>
-<p>victoriafarkas9@gmail.com · <a href="https://linkedin.com/in/victoria-farkas-617262262">LinkedIn</a> · Vancouver, BC</p>
+<div class="grid cv-grid">
+<div class="g-col-12 g-col-md-4 cv-sidebar">
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>victoriafarkas9@gmail.com</p>
+<p><a href="https://linkedin.com/in/victoria-farkas-617262262">LinkedIn</a></p>
+<p>Vancouver, BC</p>
 <p><strong>Languages:</strong> English (native) · French (B1 Certified) · Hungarian (heritage speaker)</p>
 <hr>
+</section>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p><strong>Master of Data Science (MSc.)</strong><br>
+<em>University of British Columbia</em> · 2025 – Present</p>
+<ul>
+<li>Recipient of the $10,000 Domestic Student Excellence Scholarship, awarded for outstanding achievement in data science</li>
+</ul>
+<p><strong>Bachelor of Science, Behavioural Neuroscience</strong><br>
+<em>University of British Columbia</em> · 2019 – 2024</p>
+<ul>
+<li>Coursework spanned research statistics, experimental design, human subjects ethics, and cognitive systems</li>
+</ul>
+<p><strong>Cours de Civilisation Française</strong><br>
+<em>La Sorbonne, Paris</em> · Jan – Jun 2019</p>
+<ul>
+<li>Full academic immersion; certified in conversational French (A2/B1)</li>
+</ul>
+<hr>
+</section>
+<section id="technical-skills" class="level2">
+<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
+<p><strong>Programming &amp; Analysis</strong></p>
+<ul>
+<li>Python (Pandas, PyTorch, scikit-learn, NumPy, OpenCV), R, SQL, C, SPSS</li>
+</ul>
+<p><strong>Tools &amp; Platforms</strong></p>
+<ul>
+<li>Tableau, Git, Plotly, Shiny, Streamlit, Docker</li>
+</ul>
+<p><strong>Domains</strong></p>
+<ul>
+<li>Health data governance, privacy-preserving data linkage, machine learning, statistical modelling, UI/UX design</li>
+</ul>
+<hr>
+</section>
+<section id="certifications" class="level2">
+<h2 class="anchored" data-anchor-id="certifications">Certifications</h2>
+<ul>
+<li><strong>TCPS 2: CORE</strong> — Tri-Council Policy Statement on Ethical Conduct for Research Involving Humans (Sep 2020)</li>
+</ul>
+</section>
+</div>
+<div class="g-col-12 g-col-md-8 cv-main">
 <section id="profile" class="level2">
 <h2 class="anchored" data-anchor-id="profile">Profile</h2>
 <p>Master of Data Science student at UBC with a strong foundation in rigorous statistical modelling and full-stack software development. Experienced in engineering secure data pipelines, managing population-scale datasets (10,000+ variables), and building interactive frontend data applications. Brings a track record of leading data intake projects across major government and health institutions, with deep familiarity with privacy-preserving methodology and data governance frameworks. Multilingual communicator adaptable to international and fast-paced environments.</p>
 <hr>
 </section>
-<section id="technical-skills" class="level2">
-<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
-<p><strong>Programming &amp; Analysis:</strong> Python (Pandas, PyTorch, scikit-learn, NumPy, OpenCV), R, SQL, C, SPSS</p>
-<p><strong>Tools &amp; Platforms:</strong> Tableau, Git, Plotly, Shiny, Streamlit, Docker</p>
-<p><strong>Domains:</strong> Health data governance, privacy-preserving data linkage, machine learning, statistical modelling, UI/UX design</p>
-<hr>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><strong>Master of Data Science (MSc.)</strong> — <em>University of British Columbia</em> · 2025 – Present - Recipient of the $10,000 Domestic Student Excellence Scholarship, awarded for outstanding achievement in data science</p>
-<p><strong>Bachelor of Science, Behavioural Neuroscience</strong> — <em>University of British Columbia</em> · 2019 – 2024 - Coursework spanned research statistics, experimental design, human subjects ethics, and cognitive systems</p>
-<p><strong>Cours de Civilisation Française</strong> — <em>La Sorbonne, Paris</em> · Jan – Jun 2019 - Full academic immersion; certified in conversational French (A2/B1)</p>
-<hr>
-</section>
 <section id="work-experience" class="level2">
 <h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
-<p><strong>Data Scientist</strong> · <em>UBC Data Science Club</em> · Dec 2025 – Present - Embedded as data scientist on a Computer Vision research project led by a Master of Physiotherapy candidate at UBC - Developed a classification pipeline to identify exercise types and evaluate form quality from raw video data - Optimized feature selection by identifying key joint angles and spatial relationships, significantly reducing the dimensionality of the input data without sacrificing predictive power</p>
-<p><strong>Data Access / Management Assistant</strong> · <em>Population Data BC</em> · May 2023 – Sep 2025 - Appointed project lead for the provincial intake of the Canadian Longitudinal Study on Aging (CLSA), a novel, first-of-kind dataset from the Canadian Institutes of Health Research comprising 10,000+ variables, coordinating cross-functional validation, documentation, and integration - Led dataset management and data intakes on behalf of major institutional stewards including BC Cancer, Immigration, Refugees &amp; Citizenship Canada (IRCC), and the H.E.L.P. initiative - Contributed to finalising the DAR 2.0, an updated data request platform used by health researchers across Canada, participating in UAT and stakeholder feedback cycles - Collaborated across units with data stewards, researchers, and policy professionals to improve analyst access to linked administrative health data</p>
-<p><strong>Graduate Teaching Assistant (CPSC 100)</strong> · <em>UBC Faculty of Science</em> · Aug 2025 – Present - Responsible for instruction and lab lesson design in introductory computing concepts for a large undergraduate cohort</p>
-<p><strong>Teaching Fellow (PSYC 218)</strong> · <em>UBC Faculty of Arts</em> · Jan – May 2024 - Awarded a graduate-level teaching role following a course grade of 98%, a position normally reserved for graduate students - Designed and delivered lectures on SPSS and core statistics topics (linear regression, ANOVA) to approximately 200 students</p>
-<p><strong>Teaching Assistant (APSC 160)</strong> · <em>UBC Faculty of Applied Science</em> · Sep – Dec 2023 - Assisted in teaching a 700+ student introductory C programming course covering documentation and electrical circuitry applications - Appointed Head TA during final exam invigilation; authored new exam questions testing intermediate skills in strings, functions, and algorithms</p>
-<p><strong>Teaching Assistant (CPSC 100)</strong> · <em>UBC Faculty of Science</em> · Jul – Sep 2023 - Hosted independent lab sessions, office hours, and tutoring for 200+ students in introductory programming and algorithmic problem-solving</p>
-<p><strong>Research Assistant</strong> · <em>UBC Social Cognition &amp; Emotion Lab</em> · Apr – Sep 2023 - Collected and managed over 250 participant datasets; oversaw recruitment, debriefing, and study validity protocols under real-world conditions</p>
+<p><strong>Data Scientist</strong> · <em>UBC Data Science Club</em> · Dec 2025 – Present</p>
+<ul>
+<li>Embedded as data scientist on a Computer Vision research project led by a Master of Physiotherapy candidate at UBC</li>
+<li>Developed a classification pipeline to identify exercise types and evaluate form quality from raw video data</li>
+<li>Optimized feature selection by identifying key joint angles and spatial relationships, significantly reducing the dimensionality of the input data without sacrificing predictive power</li>
+</ul>
+<p><strong>Data Access / Management Assistant</strong> · <em>Population Data BC</em> · May 2023 – Sep 2025</p>
+<ul>
+<li>Appointed project lead for the provincial intake of the Canadian Longitudinal Study on Aging (CLSA), a novel, first-of-kind dataset from the Canadian Institutes of Health Research comprising 10,000+ variables, coordinating cross-functional validation, documentation, and integration</li>
+<li>Led dataset management and data intakes on behalf of major institutional stewards including BC Cancer, Immigration, Refugees &amp; Citizenship Canada (IRCC), and the H.E.L.P. initiative</li>
+<li>Contributed to finalising the DAR 2.0, an updated data request platform used by health researchers across Canada, participating in UAT and stakeholder feedback cycles</li>
+<li>Collaborated across units with data stewards, researchers, and policy professionals to improve analyst access to linked administrative health data</li>
+</ul>
+<p><strong>Graduate Teaching Assistant (CPSC 100)</strong> · <em>UBC Faculty of Science</em> · Aug 2025 – Present</p>
+<ul>
+<li>Responsible for instruction and lab lesson design in introductory computing concepts for a large undergraduate cohort</li>
+</ul>
+<p><strong>Teaching Fellow (PSYC 218)</strong> · <em>UBC Faculty of Arts</em> · Jan – May 2024</p>
+<ul>
+<li>Awarded a graduate-level teaching role following a course grade of 98%, a position normally reserved for graduate students</li>
+<li>Designed and delivered lectures on SPSS and core statistics topics (linear regression, ANOVA) to approximately 200 students</li>
+</ul>
+<p><strong>Teaching Assistant (APSC 160)</strong> · <em>UBC Faculty of Applied Science</em> · Sep – Dec 2023</p>
+<ul>
+<li>Assisted in teaching a 700+ student introductory C programming course covering documentation and electrical circuitry applications</li>
+<li>Appointed Head TA during final exam invigilation; authored new exam questions testing intermediate skills in strings, functions, and algorithms</li>
+</ul>
+<p><strong>Teaching Assistant (CPSC 100)</strong> · <em>UBC Faculty of Science</em> · Jul – Sep 2023</p>
+<ul>
+<li>Hosted independent lab sessions, office hours, and tutoring for 200+ students in introductory programming and algorithmic problem-solving</li>
+</ul>
+<p><strong>Research Assistant</strong> · <em>UBC Social Cognition &amp; Emotion Lab</em> · Apr – Sep 2023</p>
+<ul>
+<li>Collected and managed over 250 participant datasets; oversaw recruitment, debriefing, and study validity protocols under real-world conditions</li>
+</ul>
 <hr>
 </section>
 <section id="leadership-community-involvement" class="level2">
 <h2 class="anchored" data-anchor-id="leadership-community-involvement">Leadership &amp; Community Involvement</h2>
-<p><strong>Admissions Committee Member</strong> · <em>UBC Master of Data Science</em> · Nov 2025 – Present - Reviewed and evaluated applicant submissions for the MDS programme as a student committee member</p>
-<p><strong>Social Student Representative</strong> · <em>UBC Master of Data Science</em> · Sep – Dec 2025 - Selected as one of six student representatives for MDS Cohort 10; responsible for community-building, social programming, and networking events - Organised a cohort hackathon and secured sponsorship from an AI research lab (CAIDA)</p>
-<p><strong>Judge &amp; Mentor</strong> · <em>Women in Data Science @ UBC</em> · Oct – Nov 2024 - Evaluated 11 submissions across two rounds of the WiDS case competition, assessing model performance, data cleaning, and results communication - Mentored current UBC students at the WiDS Alumnight on networking, job applications, and data science career pathways</p>
-<p><strong>Events Director</strong> · <em>UBC Women in Data Science Club</em> · May 2023 – Jun 2024 - Planned and produced panel events featuring industry professionals from Google, Shopify, and Procter &amp; Gamble - Secured sponsorships from local companies and founded a recurring alumni mentorship event</p>
-<p><strong>VP Creative</strong> · <em>UBC Dance Horizons</em> · May 2020 – May 2023 - Led creative direction and event production for a 20–50 member club; managed performance planning, content, and member coordination across three years</p>
-<p><strong>VP Creative &amp; Media</strong> · <em>UBC Unlimited Dance Club</em> · Sep 2021 – May 2023 - Held simultaneous executive creative role across two clubs; coordinated overlapping event calendars and media production</p>
-<p><strong>Provincial Page</strong> · <em>Legislative Assembly of Ontario</em> · Mar – May 2013 - Served in the Ontario Legislature assisting Members of Provincial Parliament; present for and assisted in delivery of the 2013 Provincial Budget</p>
+<p><strong>Admissions Committee Member</strong> · <em>UBC Master of Data Science</em> · Nov 2025 – Present</p>
+<ul>
+<li>Reviewed and evaluated applicant submissions for the MDS programme as a student committee member</li>
+</ul>
+<p><strong>Social Student Representative</strong> · <em>UBC Master of Data Science</em> · Sep – Dec 2025</p>
+<ul>
+<li>Selected as one of six student representatives for MDS Cohort 10; responsible for community-building, social programming, and networking events</li>
+<li>Organised a cohort hackathon and secured sponsorship from an AI research lab (CAIDA)</li>
+</ul>
+<p><strong>Judge &amp; Mentor</strong> · <em>Women in Data Science @ UBC</em> · Oct – Nov 2024</p>
+<ul>
+<li>Evaluated 11 submissions across two rounds of the WiDS case competition, assessing model performance, data cleaning, and results communication</li>
+<li>Mentored current UBC students at the WiDS Alumnight on networking, job applications, and data science career pathways</li>
+</ul>
+<p><strong>Events Director</strong> · <em>UBC Women in Data Science Club</em> · May 2023 – Jun 2024</p>
+<ul>
+<li>Planned and produced panel events featuring industry professionals from Google, Shopify, and Procter &amp; Gamble</li>
+<li>Secured sponsorships from local companies and founded a recurring alumni mentorship event</li>
+</ul>
+<p><strong>VP Creative</strong> · <em>UBC Dance Horizons</em> · May 2020 – May 2023</p>
+<ul>
+<li>Led creative direction and event production for a 20–50 member club; managed performance planning, content, and member coordination across three years</li>
+</ul>
+<p><strong>VP Creative &amp; Media</strong> · <em>UBC Unlimited Dance Club</em> · Sep 2021 – May 2023</p>
+<ul>
+<li>Held simultaneous executive creative role across two clubs; coordinated overlapping event calendars and media production</li>
+</ul>
+<p><strong>Provincial Page</strong> · <em>Legislative Assembly of Ontario</em> · Mar – May 2013</p>
+<ul>
+<li>Served in the Ontario Legislature assisting Members of Provincial Parliament; present for and assisted in delivery of the 2013 Provincial Budget</li>
+</ul>
 <hr>
 </section>
 <section id="projects-competitions" class="level2">
 <h2 class="anchored" data-anchor-id="projects-competitions">Projects &amp; Competitions</h2>
-<p><strong>Multimodal pCR Prediction for Breast Cancer</strong> · <em>National Canadian Medical Datathon 2026</em> · <strong>[3rd Place]</strong> · Mar 2026 - Designed an end-to-end multimodal deep learning pipeline to predict pathologic complete response (pCR) in breast cancer patients undergoing Neoadjuvant Chemotherapy (NAC) - Engineered a computer vision workflow utilizing OpenCV to extract critical spatial biomarkers: nuclear density, edge complexity, and clump count, from high-resolution Whole Slide Images (WSIs) - Built and optimized a custom Keras neural network trained on a multimodal dataset of extracted digital pathology features and traditional clinical history, successfully outperforming tabular-only baseline models - Achieved an overall predictive accuracy of 78%, balancing a 92% precision rate for complete responses with a 93% recall rate for partial responses to align with clinical triage needs</p>
-<p><strong>Cursor AI Hackathon</strong> · <em>Voxolith</em> · Feb 2026 - Built a full-stack, interactive 3D visualisation tool for complex neuro-spatial data using Python, Plotly, and Streamlit - Designed a dynamic frontend UI with hover-over tooltips and region-highlighting, bridging backend data with accessible user interfaces - Implemented stochastic data generation using FastNoise2 and Simplex noise functions, creating complex, non-linear environmental models for terrain synthesis</p>
-<p><strong>nwHacks 2026 — SightQuest</strong> · Jan 2026 - Orchestrated a high-performance backend workflow to ingest and process multimodal data streams, utilizing Python to bridge raw sensory input with generative AI models - Integrated the Gemini 3 Pro API to perform zero-shot visual reasoning and complex task planning, enabling the system to interpret 3D environments and provide context-aware feedback</p>
-<p><strong>BOLT Datathon</strong> · <strong>[Semi-Finalist]</strong> · Oct 2025 - Sole data scientist and programmer; developed a pipeline to consolidate siloed datasets, comprising stadium attendance, membership tiers, and product purchases, using Pandas for complex joins and data cleaning to create a 360-degree customer view - Implemented a K-Means Clustering model to segment the fanbase into distinct behavioral personas, enabling targeted marketing and retention strategies</p>
-<p><strong>nwHacks 2024 — Biomedical Waste Management System</strong> · <strong>[Track Winner]</strong> · Jan 2024 - Designed a digital biomedical waste management system for hospital implementation; placed top 3 in the Environmental &amp; Sustainability track</p>
-<p><strong>BizInnovate — Pacific Conference on Artificial Intelligence</strong> · <strong>[1st Place / 18 teams]</strong> · Apr 2023 - Supported the business presentation of a machine learning model predicting regional water quality using geospatial survey data and satellite image feature extraction</p>
-<p><strong>UBC girlCode × Aritzia Hackathon</strong> · Jan 2023 - Delivered an original front-end and UI/UX product case project within a 24-hour sprint</p>
-<hr>
+<p><strong>Multimodal pCR Prediction for Breast Cancer</strong> · <em>National Canadian Medical Datathon 2026</em> · <strong>[3rd Place]</strong> · Mar 2026</p>
+<ul>
+<li>Designed an end-to-end multimodal deep learning pipeline to predict pathologic complete response (pCR) in breast cancer patients undergoing Neoadjuvant Chemotherapy (NAC)</li>
+<li>Engineered a computer vision workflow utilizing OpenCV to extract critical spatial biomarkers: nuclear density, edge complexity, and clump count, from high-resolution Whole Slide Images (WSIs)</li>
+<li>Built and optimized a custom Keras neural network trained on a multimodal dataset of extracted digital pathology features and traditional clinical history, successfully outperforming tabular-only baseline models</li>
+<li>Achieved an overall predictive accuracy of 78%, balancing a 92% precision rate for complete responses with a 93% recall rate for partial responses to align with clinical triage needs</li>
+</ul>
+<p><strong>Cursor AI Hackathon</strong> · <em>Voxolith</em> · Feb 2026</p>
+<ul>
+<li>Built a full-stack, interactive 3D visualisation tool for complex neuro-spatial data using Python, Plotly, and Streamlit</li>
+<li>Designed a dynamic frontend UI with hover-over tooltips and region-highlighting, bridging backend data with accessible user interfaces</li>
+<li>Implemented stochastic data generation using FastNoise2 and Simplex noise functions, creating complex, non-linear environmental models for terrain synthesis</li>
+</ul>
+<p><strong>nwHacks 2026 — SightQuest</strong> · Jan 2026</p>
+<ul>
+<li>Orchestrated a high-performance backend workflow to ingest and process multimodal data streams, utilizing Python to bridge raw sensory input with generative AI models</li>
+<li>Integrated the Gemini 3 Pro API to perform zero-shot visual reasoning and complex task planning, enabling the system to interpret 3D environments and provide context-aware feedback</li>
+</ul>
+<p><strong>BOLT Datathon</strong> · <strong>[Semi-Finalist]</strong> · Oct 2025</p>
+<ul>
+<li>Sole data scientist and programmer; developed a pipeline to consolidate siloed datasets, comprising stadium attendance, membership tiers, and product purchases, using Pandas for complex joins and data cleaning to create a 360-degree customer view</li>
+<li>Implemented a K-Means Clustering model to segment the fanbase into distinct behavioral personas, enabling targeted marketing and retention strategies</li>
+</ul>
+<p><strong>nwHacks 2024 — Biomedical Waste Management System</strong> · <strong>[Track Winner]</strong> · Jan 2024</p>
+<ul>
+<li>Designed a digital biomedical waste management system for hospital implementation; placed top 3 in the Environmental &amp; Sustainability track</li>
+</ul>
+<p><strong>BizInnovate — Pacific Conference on Artificial Intelligence</strong> · <strong>[1st Place / 18 teams]</strong> · Apr 2023</p>
+<ul>
+<li>Supported the business presentation of a machine learning model predicting regional water quality using geospatial survey data and satellite image feature extraction</li>
+</ul>
+<p><strong>UBC girlCode × Aritzia Hackathon</strong> · Jan 2023</p>
+<ul>
+<li>Delivered an original front-end and UI/UX product case project within a 24-hour sprint</li>
+</ul>
 </section>
-<section id="certifications" class="level2">
-<h2 class="anchored" data-anchor-id="certifications">Certifications</h2>
-<p><strong>TCPS 2: CORE</strong> — Tri-Council Policy Statement on Ethical Conduct for Research Involving Humans (Sep 2020)</p>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
+<script>
+(function() {
+  var html = document.documentElement;
+
+  var toggle = document.createElement('button');
+  toggle.id = 'dark-mode-toggle';
+  toggle.className = 'dark-mode-toggle';
+  toggle.setAttribute('aria-label', 'Toggle dark mode');
+  toggle.setAttribute('title', 'Toggle dark mode');
+  toggle.innerHTML = '<span class="dark-mode-icon sun-icon" aria-hidden="true">☀️</span><span class="dark-mode-icon moon-icon" aria-hidden="true">🌙</span>';
+
+  function setTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    toggle.classList.toggle('dark', theme === 'dark');
+  }
+
+  toggle.addEventListener('click', function() {
+    var current = html.getAttribute('data-theme') || 'light';
+    setTheme(current === 'light' ? 'dark' : 'light');
+  });
+
+  var theme = html.getAttribute('data-theme') || 'light';
+  toggle.classList.toggle('dark', theme === 'dark');
+
+  var target = document.querySelector('.quarto-navbar-tools') || document.querySelector('.navbar-nav.ms-auto');
+  if (target) {
+    if (target.classList.contains('quarto-navbar-tools')) {
+      target.insertBefore(toggle, target.firstChild);
+    } else {
+      var li = document.createElement('li');
+      li.className = 'nav-item';
+      li.style.marginRight = '0.5rem';
+      li.appendChild(toggle);
+      target.insertBefore(li, target.firstChild);
+    }
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

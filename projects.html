@@ -68,6 +68,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+(function() {
+  var theme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', theme);
+})();
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -158,43 +164,51 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="section-title">Projects</h1>
 <p>A selection of my more prominent projects and technical explorations.</p>
 <div class="projects">
-<div class="grid">
-<section id="survival-of-the-fittest-model-optimizing-with-genetic-algorithms" class="level2 g-col-12 g-col-md-6">
+<div class="grid projects-grid">
+<div class="g-col-12 g-col-md-6">
+<section id="survival-of-the-fittest-model-optimizing-with-genetic-algorithms" class="level2 project-card">
 <h2 class="anchored" data-anchor-id="survival-of-the-fittest-model-optimizing-with-genetic-algorithms">Survival of the Fittest (Model): Optimizing with Genetic Algorithms</h2>
 <p><em>Self-directed exploration beyond a non-formal class assignment</em></p>
 <p>A tutorial on using genetic algorithms to evolve hyperparameters for machine learning models. I applied bio-inspired optimization (crossover, mutation, fitness selection) to tune a Random Forest classifier and compared it against Random Search—the topic is well-established in the literature; this was my hands-on implementation to understand the approach.</p>
 <ul>
 <li><strong>Tools:</strong> Quarto, Python, scikit-learn</li>
-<li><strong>Link:</strong> [Read on Quarto Pub](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)</li>
+<li><strong>Link:</strong> <a href="https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)" class="project-link">Read on Quarto Pub</a></li>
 </ul>
 </section>
-<section id="project-placeholder-2" class="level2 g-col-12 g-col-md-6">
+</div>
+<div class="g-col-12 g-col-md-6">
+<section id="project-placeholder-2" class="level2 project-card">
 <h2 class="anchored" data-anchor-id="project-placeholder-2">Project Placeholder 2</h2>
 <p><em>Add your second project here</em></p>
 <p>Brief description of the project, its goals, and outcomes.</p>
 <ul>
 <li><strong>Tools:</strong> Add technologies used</li>
-<li><strong>Link:</strong> <a href="#">Add link or repo</a></li>
+<li><strong>Link:</strong> <a href="#" class="project-link">Add link or repo</a></li>
 </ul>
 </section>
-<section id="project-placeholder-3" class="level2 g-col-12 g-col-md-6">
+</div>
+<div class="g-col-12 g-col-md-6">
+<section id="project-placeholder-3" class="level2 project-card">
 <h2 class="anchored" data-anchor-id="project-placeholder-3">Project Placeholder 3</h2>
 <p><em>Add your third project here</em></p>
 <p>Brief description of the project.</p>
 <ul>
 <li><strong>Tools:</strong> Add technologies used</li>
-<li><strong>Link:</strong> <a href="#">Add link or repo</a></li>
+<li><strong>Link:</strong> <a href="#" class="project-link">Add link or repo</a></li>
 </ul>
 </section>
-<section id="project-placeholder-4" class="level2 g-col-12 g-col-md-6">
+</div>
+<div class="g-col-12 g-col-md-6">
+<section id="project-placeholder-4" class="level2 project-card">
 <h2 class="anchored" data-anchor-id="project-placeholder-4">Project Placeholder 4</h2>
 <p><em>Add your fourth project here</em></p>
 <p>Brief description of the project.</p>
 <ul>
 <li><strong>Tools:</strong> Add technologies used</li>
-<li><strong>Link:</strong> <a href="#">Add link or repo</a></li>
+<li><strong>Link:</strong> <a href="#" class="project-link">Add link or repo</a></li>
 </ul>
 </section>
+</div>
 </div>
 </div>
 
@@ -202,6 +216,45 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+(function() {
+  var html = document.documentElement;
+
+  var toggle = document.createElement('button');
+  toggle.id = 'dark-mode-toggle';
+  toggle.className = 'dark-mode-toggle';
+  toggle.setAttribute('aria-label', 'Toggle dark mode');
+  toggle.setAttribute('title', 'Toggle dark mode');
+  toggle.innerHTML = '<span class="dark-mode-icon sun-icon" aria-hidden="true">☀️</span><span class="dark-mode-icon moon-icon" aria-hidden="true">🌙</span>';
+
+  function setTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    toggle.classList.toggle('dark', theme === 'dark');
+  }
+
+  toggle.addEventListener('click', function() {
+    var current = html.getAttribute('data-theme') || 'light';
+    setTheme(current === 'light' ? 'dark' : 'light');
+  });
+
+  var theme = html.getAttribute('data-theme') || 'light';
+  toggle.classList.toggle('dark', theme === 'dark');
+
+  var target = document.querySelector('.quarto-navbar-tools') || document.querySelector('.navbar-nav.ms-auto');
+  if (target) {
+    if (target.classList.contains('quarto-navbar-tools')) {
+      target.insertBefore(toggle, target.firstChild);
+    } else {
+      var li = document.createElement('li');
+      li.className = 'nav-item';
+      li.style.marginRight = '0.5rem';
+      li.appendChild(toggle);
+      target.insertBefore(li, target.firstChild);
+    }
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

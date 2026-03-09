@@ -30,3 +30,5 @@ format:
     toc: false
     page-layout: full
     mainfont: "Poppins"
+    include-in-header: includes/dark-mode-head.html
+    include-after-body: includes/dark-mode.html

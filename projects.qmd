@@ -14,9 +14,10 @@ Browse Through My
 A selection of my more prominent projects and technical explorations.
 
 ::: {.projects}
-::: {.grid}
+::: {.grid .projects-grid}
 
 ::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
 ## Survival of the Fittest (Model): Optimizing with Genetic Algorithms
 
 *Self-directed exploration beyond a non-formal class assignment*
@@ -24,11 +25,12 @@ A selection of my more prominent projects and technical explorations.
 A tutorial on using genetic algorithms to evolve hyperparameters for machine learning models. I applied bio-inspired optimization (crossover, mutation, fitness selection) to tune a Random Forest classifier and compared it against Random Search—the topic is well-established in the literature; this was my hands-on implementation to understand the approach.
 
 - **Tools:** Quarto, Python, scikit-learn
-- **Link:** [Read on Quarto Pub](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)
-
+- **Link:** [Read on Quarto Pub](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)){.project-link}
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
 ## Project Placeholder 2
 
 *Add your second project here*
@@ -36,11 +38,12 @@ A tutorial on using genetic algorithms to evolve hyperparameters for machine lea
 Brief description of the project, its goals, and outcomes.
 
 - **Tools:** Add technologies used
-- **Link:** [Add link or repo](#)
-
+- **Link:** [Add link or repo](#){.project-link}
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
 ## Project Placeholder 3
 
 *Add your third project here*
@@ -48,11 +51,12 @@ Brief description of the project, its goals, and outcomes.
 Brief description of the project.
 
 - **Tools:** Add technologies used
-- **Link:** [Add link or repo](#)
-
+- **Link:** [Add link or repo](#){.project-link}
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
 ## Project Placeholder 4
 
 *Add your fourth project here*
@@ -60,8 +64,8 @@ Brief description of the project.
 Brief description of the project.
 
 - **Tools:** Add technologies used
-- **Link:** [Add link or repo](#)
-
+- **Link:** [Add link or repo](#){.project-link}
+:::
 :::
 
 :::

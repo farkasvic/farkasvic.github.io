@@ -1,0 +1,39 @@
+<script>
+(function() {
+  var html = document.documentElement;
+
+  var toggle = document.createElement('button');
+  toggle.id = 'dark-mode-toggle';
+  toggle.className = 'dark-mode-toggle';
+  toggle.setAttribute('aria-label', 'Toggle dark mode');
+  toggle.setAttribute('title', 'Toggle dark mode');
+  toggle.innerHTML = '<span class="dark-mode-icon sun-icon" aria-hidden="true">☀️</span><span class="dark-mode-icon moon-icon" aria-hidden="true">🌙</span>';
+
+  function setTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    toggle.classList.toggle('dark', theme === 'dark');
+  }
+
+  toggle.addEventListener('click', function() {
+    var current = html.getAttribute('data-theme') || 'light';
+    setTheme(current === 'light' ? 'dark' : 'light');
+  });
+
+  var theme = html.getAttribute('data-theme') || 'light';
+  toggle.classList.toggle('dark', theme === 'dark');
+
+  var target = document.querySelector('.quarto-navbar-tools') || document.querySelector('.navbar-nav.ms-auto');
+  if (target) {
+    if (target.classList.contains('quarto-navbar-tools')) {
+      target.insertBefore(toggle, target.firstChild);
+    } else {
+      var li = document.createElement('li');
+      li.className = 'nav-item';
+      li.style.marginRight = '0.5rem';
+      li.appendChild(toggle);
+      target.insertBefore(li, target.firstChild);
+    }
+  }
+})();
+</script>

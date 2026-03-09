@@ -1,6 +1,6 @@
 ---
 title: "Victoria Farkas"
-subtitle: "Data Scientist"
+subtitle: "BSc. Behavioural Neuroscience, MSc. Data Science (In Progress)"
 format:
   html:
     page-layout: full
@@ -8,11 +8,10 @@ format:
 ---
 
 ::: {#profile-section}
-Hello, I'm
+Hello, 
 
-# Victoria Farkas {.profile-name}
+# Welcome to my Portfolio! {.profile-name}
 
-Data Scientist
 
 ::: {.btn_container}
 [Get To Know More](#about-section){.btn_color}
@@ -29,11 +28,11 @@ Get To Know More
 # About Victoria Farkas {.section-title}
 
 ::: {.text_container}
-I have a background in Behavioural Neuroscience and my journey into data science is a natural evolution. I've always been drawn to problem-solving, and data provides the perfect canvas for my curious mind to explore and innovate.
+My path to data science was a bit unconventional; it started in Behavioural Neuroscience. Making the leap from studying the brain to pursuing my Master's in Data Science felt like a completely natural evolution. I’ve always been driven by a need to dissect complex problems, and this field gives me the actual tools to build the solutions.
 
-What excites me most about this field is its constant evolution, dynamic challenges, and the continuous learning it demands. I bring an interdisciplinary approach rooted in research ethics, health policy, and statistical methodology—with 2+ years in population health data management at Population Data BC.
+What I love most about data science is that it refuses to let you stagnate; the dynamic challenges demand constant learning and adaptation. I approach my technical work with a highly interdisciplinary mindset. Thanks to my 2+ years managing population health data at Population Data BC, my analytical skills are deeply rooted in research ethics, data policy, and rigorous statistical methodology. I am also an eager student and flexible across many domains and disciplines, due to my rich and diverse educational/work backgrounds.
 
-Beyond data, I lead in dance communities, direct events for Women in Data Science, and find balance through creative pursuits. These interests fuel creativity and keep me energized for data's challenges.
+But I know the best problem solving often happens when you step away from the screen. Whether I’m staying involved with my alma mater club community: UBC Women in Data Science (WiDS), or performing with my dance team, staying connected to my creative and leadership pursuits is exactly what keeps me energized for the next coding sprint.
 :::
 :::
 
@@ -47,38 +46,49 @@ Here Are My
 # Proficiencies {.section-title}
 
 ::: {.proficiencies-intro}
-I can optimize your data for better results and informed decisions. My proficiency in Python, R, SQL, and tools like scikit-learn, TensorFlow, and Tableau—combined with strong soft skills—enables me to deliver impactful data solutions.
+My approach to data science is inherently interdisciplinary. I ground technical building deep learning pipelines in TensorFlow/Keras and robust algorithms in Python/R, in the rigorous context of neuroscience research and population health data. I build end-to-end solutions focused on real-world impact, pairing hard technical skills with the project management, creative problem-solving, and dynamic leadership required to drive complex technical projects from abstract concept to successful deployment.
 :::
 
 ::: {.article_container}
-::: {.proficiency-card}
-### Data Analysis
 
-Uncover hidden insights and patterns within your data to identify trends, anomalies, and opportunities for data-driven decision-making.
+::: {.proficiency-card}
+::: {.proficiency-icon}
+<i class="bi bi-robot"></i>
+:::
+### Machine Learning & Computer Vision
+Architect and train advanced predictive models, moving beyond standard tabular data to build multimodal deep learning pipelines. Proficient in leveraging frameworks like PyTorch and TensorFlow/Keras to solve complex, high-dimensional problems.
 :::
 
 ::: {.proficiency-card}
-### Data Analytics
-
-Harness the power of advanced analytics, including predictive models and machine learning solutions to forecast outcomes and optimize processes.
+::: {.proficiency-icon}
+<i class="bi bi-clipboard-data"></i>
+:::
+### Health Data & Statistical Methodology
+Grounded in behavioral neuroscience and 2+ years managing population health data. I design rigorous, bias-aware data pipelines backed by strong statistical methodology, research ethics, and an understanding of domain-specific constraints.
 :::
 
 ::: {.proficiency-card}
-### Data Visualization
-
-Transform complex data into clear and compelling visual narratives. Create custom dashboards and reports for enhanced data communication.
+::: {.proficiency-icon}
+<i class="bi bi-bar-chart-line"></i>
+:::
+### Interactive Data Visualization
+Transform complex datasets and model outputs into intuitive, interactive tools. From building dynamic Streamlit applications to designing comprehensive dashboards, I make high-level algorithmic outputs actionable for stakeholders.
 :::
 
 ::: {.proficiency-card}
-### Technical Writing
-
-Translate intricate technical concepts into clear documentation. From reports to tutorials, I ensure your data projects are well-documented.
+::: {.proficiency-icon}
+<i class="bi bi-journal-text"></i>
+:::
+### Technical Communication & Reproducibility
+Translate intricate architectures into clear, reproducible documentation and tutorials. Drawing from my experience as a Teaching Fellow, I ensure complex data concepts and codebases are accessible to both technical and non-technical audiences.
 :::
 
 ::: {.proficiency-card}
-### Collaboration
-
-Collaborate seamlessly to integrate data solutions into business processes. Whether short-term projects or ongoing initiatives, I'm here to support success.
+::: {.proficiency-icon}
+<i class="bi bi-diagram-3"></i>
+:::
+### Technical Leadership & Project Management
+Bridge the gap between technical execution and project strategy. With experience directing hackathon teams, community events, and health technology implementation, I drive collaborative solutions from abstract concept to successful deployment.
 :::
 :::
 :::
@@ -94,7 +104,16 @@ Browse Through My
 
 ::: {.details_container}
 ::: {.project-card}
-### [Survival of the Fittest (Model)](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/))
+### Multimodal pCR Prediction for Breast Cancer · **National Canadian Medical Datathon, 3rd Place**
+
+End-to-end multimodal deep learning pipeline predicting pathologic complete response in breast cancer patients. Computer vision workflow with OpenCV for spatial biomarkers from Whole Slide Images, plus a custom Keras neural network.
+
+*Python · OpenCV · Keras · Project Management*
+
+[View Project →](https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026){.project-link}
+:::
+::: {.project-card}
+### Survival of the Fittest (Model) · **Quarto Blog Tutorial**
 
 Genetic algorithms for hyperparameter optimization—a hands-on tutorial comparing GA against Random Search for tuning a Random Forest classifier.
 
@@ -104,31 +123,21 @@ Genetic algorithms for hyperparameter optimization—a hands-on tutorial compari
 :::
 
 ::: {.project-card}
-### BizInnovate — Pacific Conference on AI · **1st Place**
+### NepTune · **Pacific Conference on AI, 1st Place**
 
 ML model predicting regional water quality from geospatial data and satellite imagery.
 
-*Python · Geospatial · ML*
+*Python · Geospatial · Business Implementation*
 
 [View Projects](projects.qmd){.project-link}
 :::
 
 ::: {.project-card}
-### nwPlus 2024 Hackathon · **Track Winner**
+### WasteWizard · **nwPlus 2024 Hackathon, Track Winner**
 
 Digital biomedical waste management system; top 3, Environmental & Sustainability track.
 
-*Hackathon · Full-stack*
-
-[View Projects](projects.qmd){.project-link}
-:::
-
-::: {.project-card}
-### Sports Analytics Datathon · **Semi-Finalist**
-
-Sole programmer; cleaned soccer club datasets to produce a revenue optimization recommendation.
-
-*Python · Data Analysis*
+*Hackathon · Ecological Research*
 
 [View Projects](projects.qmd){.project-link}
 :::

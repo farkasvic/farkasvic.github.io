@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://farkasvic.github.io/cv.html</loc>
-    <lastmod>2026-03-09T20:55:06.393Z</lastmod>
-  </url>
-  <url>
-    <loc>https://farkasvic.github.io/beyond-data.html</loc>
-    <lastmod>2026-03-09T20:55:06.393Z</lastmod>
-  </url>
-  <url>
-    <loc>https://farkasvic.github.io/index.html</loc>
-    <lastmod>2026-03-09T20:55:06.393Z</lastmod>
+    <loc>https://farkasvic.github.io/cv_draft.html</loc>
+    <lastmod>2026-03-09T21:05:40.789Z</lastmod>
   </url>
   <url>
     <loc>https://farkasvic.github.io/projects.html</loc>
-    <lastmod>2026-03-09T20:55:06.393Z</lastmod>
+    <lastmod>2026-03-09T21:05:40.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://farkasvic.github.io/index.html</loc>
+    <lastmod>2026-03-09T21:05:40.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://farkasvic.github.io/beyond-data.html</loc>
+    <lastmod>2026-03-09T21:05:40.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://farkasvic.github.io/cv.html</loc>
+    <lastmod>2026-03-09T21:05:40.789Z</lastmod>
   </url>
 </urlset>

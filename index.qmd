@@ -1,86 +1,192 @@
 ---
-title: "Hi, I'm Victoria"
-subtitle: "Data Scientist · MDS @ UBC"
+title: "Victoria Farkas"
+subtitle: "Data Scientist"
+format:
+  html:
+    page-layout: full
+    class: index-page
 ---
 
-::: {.hero-section}
-::: {.hero-content}
+::: {#profile-section}
+Hello, I'm
 
-MDS student at UBC with a BSc in Behavioural Neuroscience and 2+ years in population health data management. I bring an interdisciplinary approach to data science rooted in research ethics, health policy, and statistical methodology.
+# Victoria Farkas {.profile-name}
 
-::: {.hero-cta}
-[View Full CV](cv.qmd){.btn .btn-primary .btn-lg}
-[Explore Projects](projects.qmd){.btn .btn-outline-primary .btn-lg}
-:::
-:::
-:::
+Data Scientist
 
----
-
-## Technical Skills {.mt-5}
-
-::: {.skills-grid}
-::: {.skill-category}
-**Languages & Core**
-Python · R · SQL · C
-:::
-::: {.skill-category}
-**Data & ML**
-pandas · scikit-learn · TensorFlow · numpy
-:::
-::: {.skill-category}
-**Tools & Platforms**
-Git · Docker · Jupyter · Tableau · Quarto
-:::
-::: {.skill-category}
-**Languages Spoken**
-English (native) · French (B1) · Hungarian (heritage)
+::: {.btn_container}
+[Get To Know More](#about-section){.btn_color}
 :::
 :::
 
 ---
 
-## Featured Projects {.mt-5}
+::: {#about-section}
+::: {.section-label}
+Get To Know More
+:::
 
-::: {.grid .featured-projects}
-::: {.g-col-12 .g-col-md-6}
-### [Survival of the Fittest (Model)](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)
+# About Victoria Farkas {.section-title}
+
+::: {.text_container}
+I have a background in Behavioural Neuroscience and my journey into data science is a natural evolution. I've always been drawn to problem-solving, and data provides the perfect canvas for my curious mind to explore and innovate.
+
+What excites me most about this field is its constant evolution, dynamic challenges, and the continuous learning it demands. I bring an interdisciplinary approach rooted in research ethics, health policy, and statistical methodology—with 2+ years in population health data management at Population Data BC.
+
+Beyond data, I lead in dance communities, direct events for Women in Data Science, and find balance through creative pursuits. These interests fuel creativity and keep me energized for data's challenges.
+:::
+:::
+
+---
+
+::: {#proficiencies-section}
+::: {.section-label}
+Here Are My
+:::
+
+# Proficiencies {.section-title}
+
+::: {.proficiencies-intro}
+I can optimize your data for better results and informed decisions. My proficiency in Python, R, SQL, and tools like scikit-learn, TensorFlow, and Tableau—combined with strong soft skills—enables me to deliver impactful data solutions.
+:::
+
+::: {.article_container}
+::: {.proficiency-card}
+### Data Analysis
+
+Uncover hidden insights and patterns within your data to identify trends, anomalies, and opportunities for data-driven decision-making.
+:::
+
+::: {.proficiency-card}
+### Data Analytics
+
+Harness the power of advanced analytics, including predictive models and machine learning solutions to forecast outcomes and optimize processes.
+:::
+
+::: {.proficiency-card}
+### Data Visualization
+
+Transform complex data into clear and compelling visual narratives. Create custom dashboards and reports for enhanced data communication.
+:::
+
+::: {.proficiency-card}
+### Technical Writing
+
+Translate intricate technical concepts into clear documentation. From reports to tutorials, I ensure your data projects are well-documented.
+:::
+
+::: {.proficiency-card}
+### Collaboration
+
+Collaborate seamlessly to integrate data solutions into business processes. Whether short-term projects or ongoing initiatives, I'm here to support success.
+:::
+:::
+:::
+
+---
+
+::: {#projects-section}
+::: {.section-label}
+Browse Through My
+:::
+
+# Projects {.section-title}
+
+::: {.details_container}
+::: {.project-card}
+### [Survival of the Fittest (Model)](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/))
 
 Genetic algorithms for hyperparameter optimization—a hands-on tutorial comparing GA against Random Search for tuning a Random Forest classifier.
 
 *Quarto · Python · scikit-learn*
+
+[View Project →](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)){.project-link}
 :::
-::: {.g-col-12 .g-col-md-6}
+
+::: {.project-card}
 ### BizInnovate — Pacific Conference on AI · **1st Place**
 
 ML model predicting regional water quality from geospatial data and satellite imagery.
 
 *Python · Geospatial · ML*
+
+[View Projects](projects.qmd){.project-link}
 :::
-::: {.g-col-12 .g-col-md-6}
+
+::: {.project-card}
 ### nwPlus 2024 Hackathon · **Track Winner**
 
 Digital biomedical waste management system; top 3, Environmental & Sustainability track.
 
 *Hackathon · Full-stack*
+
+[View Projects](projects.qmd){.project-link}
 :::
-::: {.g-col-12 .g-col-md-6}
+
+::: {.project-card}
 ### Sports Analytics Datathon · **Semi-Finalist**
 
 Sole programmer; cleaned soccer club datasets to produce a revenue optimization recommendation.
 
 *Python · Data Analysis*
+
+[View Projects](projects.qmd){.project-link}
 :::
 :::
 
-[View all projects →](projects.qmd){.btn .btn-outline-secondary .mt-3}
+[View all projects →](projects.qmd){.btn_color .mt-3}
+:::
 
 ---
 
-## Quick Links {.mt-5}
+::: {#platforms-section}
+::: {.section-label}
+Explore My
+:::
 
-| | |
-|---|---|
-| **Email** | [victoriafarkas9@gmail.com](mailto:victoriafarkas9@gmail.com) |
-| **LinkedIn** | [linkedin.com/in/victoria-farkas-617262262](https://linkedin.com/in/victoria-farkas-617262262) |
-| **Location** | Vancouver, BC |
+# Other Platforms {.section-title}
+
+::: {.platforms_container}
+::: {.platform-card}
+### [LinkedIn](https://linkedin.com/in/victoria-farkas-617262262)
+
+Connect and follow my professional journey
+:::
+
+::: {.platform-card}
+### [Quarto Pub](https://farkasvic.quarto.pub/)
+
+Read my technical tutorials and insights
+:::
+
+::: {.platform-card}
+### [GitHub](https://github.com/farkasvic)
+
+All things code
+:::
+:::
+:::
+
+---
+
+::: {#contact-section}
+::: {.section-label}
+Reach Out
+:::
+
+# Contact Me {.section-title}
+
+::: {.contact-container}
+::: {.contact-info}
+## Contact Information
+
+**Victoria Farkas**
+
+Vancouver, BC
+
+[victoriafarkas9@gmail.com](mailto:victoriafarkas9@gmail.com)
+
+[LinkedIn](https://linkedin.com/in/victoria-farkas-617262262)
+:::
+:::
+:::

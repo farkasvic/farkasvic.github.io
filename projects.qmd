@@ -1,7 +1,15 @@
 ---
 title: "Projects"
 subtitle: "Selected work & explorations"
+format:
+  html:
+    class: projects-page
 ---
+::: {.section-label}
+Browse Through My
+:::
+
+# Projects {.section-title}
 
 A selection of my more prominent projects and technical explorations.
 

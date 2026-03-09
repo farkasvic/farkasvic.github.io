@@ -7,7 +7,7 @@ website:
   site-url: https://farkasvic.github.io
   repo-url: https://github.com/farkasvic/farkasvic.github.io
   navbar:
-    background: dark
+    background: light
     left:
       - href: index.qmd
         text: Home
@@ -25,9 +25,8 @@ website:
 
 format:
   html:
-    theme: darkly
+    theme: flatly
     css: styles.css
     toc: false
     page-layout: full
-    mainfont: "Source Sans 3"
-    monofont: "JetBrains Mono"
+    mainfont: "Poppins"

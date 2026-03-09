@@ -18,11 +18,14 @@ A selection of my more prominent projects and technical explorations.
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.project-card}
-## Survival of the Fittest (Model): Optimizing with Genetic Algorithms
+::: {.project-card-image}
+![Final model performance comparison](assets/survival.png)
+:::
+## [Survival of the Fittest (Model): Optimizing with Genetic Algorithms](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)) · **Quarto Blog Tutorial**
 
 *Self-directed exploration beyond a non-formal class assignment*
 
-A tutorial on using genetic algorithms to evolve hyperparameters for machine learning models. I applied bio-inspired optimization (crossover, mutation, fitness selection) to tune a Random Forest classifier and compared it against Random Search—the topic is well-established in the literature; this was my hands-on implementation to understand the approach.
+A hands-on tutorial translating biological evolution into code for hyperparameter optimization. I mapped genetic concepts to Python objects, then implemented crossover, mutation, and generational selection functions. Using the Digits dataset with an intentionally "poisoned" gene pool and 80% test split, the GA converged faster than RandomizedSearchCV under the same computational budget, demonstrating that bio-inspired search can outperform blind random search when the problem rewards propagating good genes across generations.
 
 - **Tools:** Quarto, Python, scikit-learn
 - **Link:** [Read on Quarto Pub](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)){.project-link}
@@ -31,40 +34,43 @@ A tutorial on using genetic algorithms to evolve hyperparameters for machine lea
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.project-card}
-## Project Placeholder 2
+::: {.project-card-image}
+![Patch samples from Whole Slide Images](assets/patch_samples.png)
+:::
+## [Multimodal pCR Prediction for Breast Cancer](https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026) · **National Canadian Medical Datathon, 3rd Place**
 
-*Add your second project here*
+Predicts whether breast cancer patients achieve pathologic complete response (pCR)after Neoadjuvant Chemotherapy (NAC). This outcome is critical for clinical triage: complete responders may avoid additional surgery, while partial responders need different follow-up. First, I engineered a computer vision workflow using OpenCV to edtract spatial biomarkers from high res Whole Slide Images (WSIs): nuclear density, edge complexity, and clump count. Second, these digital pathology features are concatenated with traditional clinical history and fed into a custom Keras neural network. The multimodal approach outperformed tabular-only baselines, achieving 78% overall accuracy, with 92% precision for complete responses and 93% recall for partial responses, balancing sensitivity and specificity for downstream clinical decision support.
 
-Brief description of the project, its goals, and outcomes.
-
-- **Tools:** Add technologies used
-- **Link:** [Add link or repo](#){.project-link}
+- **Tools:** Python, OpenCV, Keras
+- **Link:** [View on GitHub](https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026){.project-link}
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.project-card}
-## Project Placeholder 3
+::: {.project-card-image}
+![NepTune water quality prediction](assets/neptune.png)
+:::
+## NepTune · **Pacific Conference on AI, 1st Place**
 
-*Add your third project here*
+A machine learning model that predicts regional water quality by combining geospatial survey data with satellite image feature extraction. Built for the Pacific Conference on Artificial Intelligence, the project placed 1st out of 18 teams. The model ingests satellite data and geo-census data to identify patterns and risk factors for water quality degradation, supporting environmental monitoring and policy decisions. I contributed to the business presentation and technical implementation plan, demonstrating how ML can translate raw geospatial and satellite data into actionable insights for resource management.
 
-Brief description of the project.
-
-- **Tools:** Add technologies used
-- **Link:** [Add link or repo](#){.project-link}
+- **Tools:** Python, Geospatial, Business Implementation
+- **Link:** [View Projects](projects.qmd){.project-link}
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.project-card}
-## Project Placeholder 4
+::: {.project-card-image}
+![Voxelith 3D brain visualization](assets/voxelith.png)
+:::
+## [Voxelith](https://github.com/farkasvic/voxelith) · **Cursor AI Hackathon**
 
-*Add your fourth project here*
+A volumetric anatomical matrix and spatial intelligence engine for neuroscience research, teaching, and clinical exploration. Built on the Allen Mouse Brain Atlas via the BrainGlobe API, Voxelith renders interactive 3D glass-brain views in the browser. Users can multiselect brain regions and toggle a transparent overlay for context or clearer hover interaction. Voxel mode converts mesh surfaces to discrete voxel grids, reporting count, resolution, and volume which is useful for quantifying region size and comparing across conditions. The pathology simulator auto-loads affected regions for clinical presets: ischemic stroke (MCA territory), glioblastoma (butterfly pattern), and thalamic hemorrhage. The density heatmap colors vertices by distance from centroid using a Viridis colormap.
 
-Brief description of the project.
-
-- **Tools:** Add technologies used
-- **Link:** [Add link or repo](#){.project-link}
+- **Tools:** Python, Streamlit, Plotly, PyVista
+- **Link:** [View on GitHub](https://github.com/farkasvic/voxelith){.project-link}
 :::
 :::
 

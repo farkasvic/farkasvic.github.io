@@ -1,32 +1,47 @@
 ---
 title: "Beyond Data"
-subtitle: "Hobbies & personality"
+subtitle: "For Fun!"
 ---
 
-When I'm not wrangling data or tuning models, here's what keeps me going.
+When I'm not wrangling data or tuning models, here's where you can find me :)
 
 ---
 
 ## Dance {.mt-4}
 
-I've held executive creative roles across **UBC Dance Horizons** and **UBC Unlimited Dance**—leading event production, performance planning, and member coordination for three years. Dance is where I channel creativity, discipline, and collaboration outside the terminal.
+For three years, I've held executive creative roles across **UBC Dance Horizons** and **UBC Unlimited Dance**, leading event production, performance planning, and social media design. Beyond creative direction, I actively perform with a local dance team, taking the stage at Vancouver Whitecaps halftime shows, collaborating with local artists, and performing across the Pride Festival circuit. Whether I'm organizing a large scale production or performing for thousands, dance is where I channel my creativity.
 
-*Placeholder: Add photos, performances, or links to dance content.*
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+![Whitecaps 2025 Performance](assets/dance_team.png){width=100%}
+:::
+::: {.g-col-12 .g-col-md-6}
+![](assets/danceteam2.png){width=100%}
+:::
+:::
 
 ---
 
 ## Creative & Community {.mt-4}
 
-From arts to civic engagement, I bring the same energy to communities beyond data science. Former Provincial Page at the Ontario Legislature, current WiDS Events Director—I believe in building bridges between technical work and the people it serves.
+From arts to civic engagement, I bring the same energy to communities beyond data science. From acting as Provincial Page at the Ontario Legislature, to WiDS Events Director, to Social Student Representative for the UBC MDS program, I believe in building bridges between technical work and the people it serves.
 
-*Placeholder: Expand with specific hobbies, interests, or side projects.*
+During my time in UBC WiDS I proposed and led the organization of an annual alumni mentorship event: Alumnight. I also helped organize the premier instance of YouCode (sponsored by Arc'teryx), one of UBC's largest hackathons. Fun fact, I also led a dance workshop during the event itself! 
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+![WiDS Alumnight](assets/wids_alumight.png){width=100%}
+:::
+::: {.g-col-12 .g-col-md-6}
+![WiDS Community Outreach](assets/wids_community_outreach.png){width=100%}
+:::
+:::
 
 ---
 
 ## Off the Clock {.mt-4}
 
-- **Currently reading:** *Add your current book*
-- **Currently learning:** *Add a non-DS skill or hobby*
-- **Fun fact:** *Something unexpected about you*
+- **Currently reading:** The Spellbook of Listen Taylor
+- **Currently learning:** Relearning cello after a loooong hiatus
+- **Fun fact:** I will randomly bake something and bring it to class/work for people to give me their opinions!
 
-*Customize this section to reflect your personality—travel, food, music, sports, whatever makes you you.*

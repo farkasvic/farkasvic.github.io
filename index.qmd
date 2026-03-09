@@ -25,7 +25,11 @@ Hello,
 Get To Know More
 :::
 
-# About Victoria Farkas {.section-title}
+# About Me {.section-title}
+
+::: {.profile-photo-container}
+![](assets/profilephoto.png)
+:::
 
 ::: {.text_container}
 My path to data science was a bit unconventional; it started in Behavioural Neuroscience. Making the leap from studying the brain to pursuing my Master's in Data Science felt like a completely natural evolution. I’ve always been driven by a need to dissect complex problems, and this field gives me the actual tools to build the solutions.
@@ -104,28 +108,37 @@ Browse Through My
 
 ::: {.details_container}
 ::: {.project-card}
+::: {.project-card-image}
+![Patch samples from Whole Slide Images](assets/patch_samples.png)
+:::
 ### Multimodal pCR Prediction for Breast Cancer · **National Canadian Medical Datathon, 3rd Place**
 
-End-to-end multimodal deep learning pipeline predicting pathologic complete response in breast cancer patients. Computer vision workflow with OpenCV for spatial biomarkers from Whole Slide Images, plus a custom Keras neural network.
+Predicts pCR in breast cancer post-chemotherapy. OpenCV extracts spatial biomarkers from Whole Slide Images; Keras neural network fuses pathology + clinical data. 78% accuracy, 92% precision.
 
 *Python · OpenCV · Keras · Project Management*
 
 [View Project →](https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026){.project-link}
 :::
 ::: {.project-card}
+::: {.project-card-image}
+![Final model performance Comparison](assets/survival.png)
+:::
 ### Survival of the Fittest (Model) · **Quarto Blog Tutorial**
 
-Genetic algorithms for hyperparameter optimization—a hands-on tutorial comparing GA against Random Search for tuning a Random Forest classifier.
+Evolve hyperparameters with genetic algorithms. A Hands on tutorial: GA vs Random Search on a Random Forest classifier.
 
 *Quarto · Python · scikit-learn*
 
-[View Project →](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)){.project-link}
+[View Project →](https://farkasvic.quarto.pub/survival-of-the-fittest-%28model-optimizing-with-genetic-algorithms/%29){.project-link}
 :::
 
 ::: {.project-card}
+::: {.project-card-image}
+![NepTune water quality prediction](assets/neptune.png)
+:::
 ### NepTune · **Pacific Conference on AI, 1st Place**
 
-ML model predicting regional water quality from geospatial data and satellite imagery.
+1st-place ML model predicting regional water quality from geospatial survey data and satellite image features.
 
 *Python · Geospatial · Business Implementation*
 
@@ -133,13 +146,16 @@ ML model predicting regional water quality from geospatial data and satellite im
 :::
 
 ::: {.project-card}
-### WasteWizard · **nwPlus 2024 Hackathon, Track Winner**
+::: {.project-card-image}
+![Voxelith 3D brain visualization](assets/voxelith.png)
+:::
+### Voxelith · **Cursor AI Hackathon**
 
-Digital biomedical waste management system; top 3, Environmental & Sustainability track.
+3D brain visualization engine. Allen Atlas, voxelization, pathology simulation (stroke, glioblastoma), lesion mode, density heatmaps.
 
-*Hackathon · Ecological Research*
+*Python · Streamlit · Plotly · PyVista*
 
-[View Projects](projects.qmd){.project-link}
+[View Project →](https://github.com/farkasvic/voxelith){.project-link}
 :::
 :::
 
@@ -157,21 +173,26 @@ Explore My
 
 ::: {.platforms_container}
 ::: {.platform-card}
+::: {.platform-icon}
+<i class="bi bi-linkedin"></i>
+:::
 ### [LinkedIn](https://linkedin.com/in/victoria-farkas-617262262)
 
-Connect and follow my professional journey
 :::
 
 ::: {.platform-card}
+::: {.platform-icon}
+<i class="bi bi-journal-code"></i>
+:::
 ### [Quarto Pub](https://farkasvic.quarto.pub/)
 
-Read my technical tutorials and insights
 :::
 
 ::: {.platform-card}
+::: {.platform-icon}
+<i class="bi bi-github"></i>
+:::
 ### [GitHub](https://github.com/farkasvic)
-
-All things code
 :::
 :::
 :::

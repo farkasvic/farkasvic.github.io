@@ -21,14 +21,14 @@ A selection of my more prominent projects and technical explorations.
 ::: {.project-card-image}
 ![Final model performance comparison](assets/survival.png)
 :::
-## [Survival of the Fittest (Model): Optimizing with Genetic Algorithms](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)) · **Quarto Blog Tutorial**
+## [Survival of the Fittest (Model): Optimizing with Genetic Algorithms](https://farkasvic.github.io/genetic_algo_blog/) · **Quarto Blog Tutorial**
 
 *Self-directed exploration beyond a non-formal class assignment*
 
 A hands-on tutorial translating biological evolution into code for hyperparameter optimization. I mapped genetic concepts to Python objects, then implemented crossover, mutation, and generational selection functions. Using the Digits dataset with an intentionally "poisoned" gene pool and 80% test split, the GA converged faster than RandomizedSearchCV under the same computational budget, demonstrating that bio-inspired search can outperform blind random search when the problem rewards propagating good genes across generations.
 
 - **Tools:** Quarto, Python, scikit-learn
-- **Link:** [Read on Quarto Pub](https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/)){.project-link}
+- **Link:** [Read on Quarto Pub](https://farkasvic.github.io/genetic_algo_blog/){.project-link}
 :::
 :::
 
@@ -43,6 +43,7 @@ Predicts whether breast cancer patients achieve pathologic complete response (pC
 
 - **Tools:** Python, OpenCV, Keras
 - **Link:** [View on GitHub](https://github.com/farkasvic/National_Canadian_Medical_Datathon_2026){.project-link}
+- **Link:** [View Presentation](https://docs.google.com/presentation/d/18B6nt9hGTiQLpwxoxdON55qKwHxSp2I6/edit?usp=sharing){.project-link}
 :::
 :::
 
@@ -56,7 +57,7 @@ Predicts whether breast cancer patients achieve pathologic complete response (pC
 A machine learning model that predicts regional water quality by combining geospatial survey data with satellite image feature extraction. Built for the Pacific Conference on Artificial Intelligence, the project placed 1st out of 18 teams. The model ingests satellite data and geo-census data to identify patterns and risk factors for water quality degradation, supporting environmental monitoring and policy decisions. I contributed to the business presentation and technical implementation plan, demonstrating how ML can translate raw geospatial and satellite data into actionable insights for resource management.
 
 - **Tools:** Python, Geospatial, Business Implementation
-- **Link:** [View Projects](projects.qmd){.project-link}
+- **Link:** [View Presentation](https://drive.google.com/file/d/1JKn9yn-hQOev25ZAurhYdEgqf8zQ6SMz/view?usp=sharing){.project-link}
 :::
 :::
 

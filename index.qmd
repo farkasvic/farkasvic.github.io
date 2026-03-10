@@ -131,7 +131,7 @@ Evolve hyperparameters with genetic algorithms. A Hands on tutorial: GA vs Rando
 
 *Quarto · Python · scikit-learn*
 
-[View Project →](https://farkasvic.quarto.pub/survival-of-the-fittest-%28model-optimizing-with-genetic-algorithms/%29){.project-link}
+[View Project →](https://farkasvic.github.io/genetic_algo_blog/){.project-link}
 :::
 
 ::: {.project-card}
@@ -144,7 +144,7 @@ Evolve hyperparameters with genetic algorithms. A Hands on tutorial: GA vs Rando
 
 *Python · Geospatial · Business Implementation*
 
-[View Projects](projects.qmd){.project-link}
+[View Presentation](https://drive.google.com/file/d/1JKn9yn-hQOev25ZAurhYdEgqf8zQ6SMz/view?usp=sharing){.project-link}
 :::
 
 ::: {.project-card}
